@@ -28,12 +28,13 @@ Trong phần này, chúng ta sẽ bắt tay vào thực hành triển khai toàn
 
 Quá trình triển khai được chia thành 7 giai đoạn chính:
 
-1. [Giai đoạn 1: Thiết lập Phân quyền (IAM)](5.1-iam-security/) - Tạo tài khoản và cấp quyền cho GitHub Actions, ECS.
-2. [Giai đoạn 2: Khởi tạo Mạng ảo (VPC)](5.2-vpc-network/) - Xây dựng kiến trúc Public Subnets và Routing tối ưu chi phí.
-3. [Giai đoạn 3: Triển khai Backend (ECS Fargate)](5.3-ecs-backend/) - Đưa Spring Boot API lên Container Serverless.
-4. [Giai đoạn 4: Triển khai AI Engine (EC2 GPU)](5.4-ec2-gpu-ai/) - Cài đặt máy ảo chạy YOLOv8 và LiteLLM xử lý luồng WebSockets.
-5. [Giai đoạn 5: Triển khai Frontend (S3 & CloudFront)](5.5-s3-cloudfront-frontend/) - Lưu trữ web tĩnh và CDN phân phối toàn cầu.
-6. [Giai đoạn 6: Tự động hóa CI/CD (GitHub Actions)](5.6-cicd-github/) - Gắn kết quy trình đẩy code tự động.
-7. [Dọn dẹp tài nguyên (Cleanup)](5.7-cleanup/) - Hướng dẫn xóa các dịch vụ để tránh phát sinh chi phí.
+1. [Giai đoạn 1: Thiết lập Phân quyền (IAM)](6.1-iam-security/) - Tạo tài khoản và cấp quyền cho GitHub Actions, ECS.
+2. [Giai đoạn 2: Khởi tạo Mạng ảo (VPC)](6.2-vpc-network/) - Xây dựng kiến trúc Public Subnets và Routing tối ưu chi phí.
+3. [Giai đoạn 3: Triển khai Backend (ECS Fargate)](6.3-ecs-backend/) - Đưa Spring Boot API lên Container Serverless.
+4. [Giai đoạn 4: Triển khai AI Engine (EC2 GPU)](6.4-ec2-gpu-ai/) - Cài đặt máy ảo chạy YOLOv8 và LiteLLM xử lý luồng WebSockets.
+5. [Giai đoạn 5: Triển khai Frontend (S3 & CloudFront)](6.5-s3-cloudfront-frontend/) - Lưu trữ web tĩnh và CDN phân phối toàn cầu.
+6. [Giai đoạn 6: Tự động hóa CI/CD (GitHub Actions)](6.6-cicd-github/) - Gắn kết quy trình đẩy code tự động.
+7. [Dọn dẹp tài nguyên (Cleanup)](6.7-cleanup/) - Hướng dẫn xóa các dịch vụ để tránh phát sinh chi phí.
 
 > **Lưu ý:** Hãy chuẩn bị sẵn sàng tài khoản AWS và bắt đầu đi tuần tự từng bước nhé!
+

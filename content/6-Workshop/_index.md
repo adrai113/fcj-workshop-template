@@ -28,12 +28,13 @@ In this section, we will practice deploying the entire **AuraAcademic** system a
 
 The deployment process is divided into 7 main stages:
 
-1. [Stage 1: IAM & Security](5.1-iam-security/) - Create accounts and grant permissions for GitHub Actions, ECS.
-2. [Stage 2: VPC Network](5.2-vpc-network/) - Build a cost-optimized Public Subnet architecture and Routing.
-3. [Stage 3: ECS Backend](5.3-ecs-backend/) - Deploy the Spring Boot API to Serverless Containers.
-4. [Stage 4: EC2 GPU AI](5.4-ec2-gpu-ai/) - Install the VM running YOLOv8 and LiteLLM for WebSockets processing.
-5. [Stage 5: S3 & CloudFront Frontend](5.5-s3-cloudfront-frontend/) - Host static web files and global CDN.
-6. [Stage 6: CI/CD GitHub Actions](5.6-cicd-github/) - Integrate automated code deployment pipeline.
-7. [Resource Cleanup](5.7-cleanup/) - Guide to deleting services to avoid incurring costs.
+1. [Stage 1: IAM & Security](6.1-iam-security/) - Create accounts and grant permissions for GitHub Actions, ECS.
+2. [Stage 2: VPC Network](6.2-vpc-network/) - Build a cost-optimized Public Subnet architecture and Routing.
+3. [Stage 3: ECS Backend](6.3-ecs-backend/) - Deploy the Spring Boot API to Serverless Containers.
+4. [Stage 4: EC2 GPU AI](6.4-ec2-gpu-ai/) - Install the VM running YOLOv8 and LiteLLM for WebSockets processing.
+5. [Stage 5: S3 & CloudFront Frontend](6.5-s3-cloudfront-frontend/) - Host static web files and global CDN.
+6. [Stage 6: CI/CD GitHub Actions](6.6-cicd-github/) - Integrate automated code deployment pipeline.
+7. [Resource Cleanup](6.7-cleanup/) - Guide to deleting services to avoid incurring costs.
 
 > **Note:** Get your AWS account ready and let's go step-by-step!
+
