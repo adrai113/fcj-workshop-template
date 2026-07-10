@@ -1,4 +1,4 @@
-baseURL = "https://adrai113.github.io/fcj-workshop-template/"
+baseURL = "/"
 relativeURLs = false
 canonifyURLs = false
 defaultContentLanguage = "en"
