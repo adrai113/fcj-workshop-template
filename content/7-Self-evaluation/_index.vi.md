@@ -1,9 +1,9 @@
 ---
 title: "Tự đánh giá"
 date: 2026-07-10
-weight: 6
+weight: 7
 chapter: false
-pre: " <b> 6. </b> "
+pre: " <b> 7. </b> "
 ---
 
 Trải qua hành trình 12 tuần thực tập tại chương trình **First Cloud Journey (FCAJ)**, tôi đã có một bước tiến dài trong việc chuyển hóa những lý thuyết trên sách vở thành kỹ năng thực chiến. Môi trường thực tế đã giúp tôi cọ xát với các kiến trúc **Amazon Web Services (AWS)**, quy trình DevOps, và đặc biệt là tư duy phát triển phần mềm theo hướng Cloud-native.

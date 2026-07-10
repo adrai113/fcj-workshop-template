@@ -1,9 +1,9 @@
 ---
 title: "Triển khai Thực tế (Workshop)"
 date: 2024-01-01
-weight: 5
+weight: 6
 chapter: false
-pre: " <b> 5. </b> "
+pre: " <b> 6. </b> "
 ---
 
 # Hướng dẫn Triển khai AuraAcademic lên AWS (Step-by-Step)

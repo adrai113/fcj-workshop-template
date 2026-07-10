@@ -1,9 +1,9 @@
 ---
 title: "Chia sẻ, đóng góp ý kiến"
 date: 2026-07-10
-weight: 7
+weight: 8
 chapter: false
-pre: " <b> 7. </b> "
+pre: " <b> 8. </b> "
 ---
 
 Trong quá trình tham gia chương trình **First Cloud Journey (FCAJ)**, em đã có cơ hội được học tập, thực hành và trải nghiệm môi trường làm việc thực tế thông qua các hoạt động học tập, workshop, meeting và phát triển project nhóm. Đây là một chương trình mang lại nhiều giá trị, giúp em nâng cao kiến thức chuyên môn cũng như cải thiện các kỹ năng cần thiết trong quá trình phát triển nghề nghiệp.

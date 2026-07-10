@@ -1,9 +1,9 @@
 ---
 title: "Self Evaluation"
 date: 2026-07-10
-weight: 6
+weight: 7
 chapter: false
-pre: " <b> 6. </b> "
+pre: " <b> 7. </b> "
 ---
 
 Throughout my 12-week internship journey at the **First Cloud Journey (FCAJ)** program, I have taken significant steps in transforming theoretical knowledge into practical skills. The real-world environment allowed me to gain hands-on experience with **Amazon Web Services (AWS)** architectures, DevOps workflows, and most importantly, cloud-native software development thinking.

@@ -1,9 +1,9 @@
 ---
 title: "Sharing and Feedback"
 date: 2026-07-10
-weight: 7
+weight: 8
 chapter: false
-pre: " <b> 7. </b> "
+pre: " <b> 8. </b> "
 ---
 
 During my participation in the **First Cloud Journey (FCAJ)** program, I had the opportunity to learn, practice, and experience a real working environment through learning activities, workshops, meetings, and group project development. This program provided great value, helping me improve my technical knowledge as well as develop essential skills for my future career.
