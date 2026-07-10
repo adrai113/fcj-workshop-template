@@ -1,9 +1,9 @@
----
+﻿---
 title: "Giai đoạn 5: Lưu trữ Frontend bằng S3 & CloudFront"
 date: 2024-01-01
 weight: 5
 chapter: false
-pre: " <b> 5.5 </b> "
+pre: " <b> 6.5 </b> "
 ---
 
 # Triển khai Frontend (Next.js) với S3 & CloudFront
@@ -20,7 +20,7 @@ Mảng Frontend của ứng dụng (Next.js) sẽ được build ra các tệp t
 4. Ở mục **Block Public Access**, giữ nguyên dấu tick **Block all public access**. Hệ thống sẽ khóa chặt bucket này lại, chỉ cho phép CloudFront được chui vào lấy file (Bảo mật Enterprise).
 5. Cuộn xuống dưới cùng và nhấn **Create bucket**.
 
-![Create S3](/images/5-Workshop/5.5-S3-CloudFront-Frontend/5.5-s3-step1.png)
+![Create S3](5.5-s3-step1.png)
 
 ---
 
@@ -58,7 +58,7 @@ _(Giao diện CloudFront mới của AWS 2024)_
    - Nhờ tính năng mới của AWS, CloudFront sẽ tự động cập nhật Policy cho S3 Bucket luôn nên ta không cần làm bằng tay nữa.
    - Bạn chỉ việc nhấn **Create distribution** ở dưới cùng.
 
-![Create CloudFront](/images/5-Workshop/5.5-S3-CloudFront-Frontend/5.5-s3-step3.png)
+![Create CloudFront](5.5-s3-step3.png)
 
 ---
 
@@ -83,4 +83,5 @@ Vì giao diện tạo nhanh của AWS đã ẩn đi một số cài đặt, chú
 
 Trở lại giao diện CloudFront, copy đường dẫn ở mục **Distribution domain name** (Ví dụ: `d1234abcd.cloudfront.net`).
 Dán vào trình duyệt, bạn sẽ thấy ứng dụng Web của mình hiện lên mượt mà với ổ khóa bảo mật HTTPS, sẵn sàng cho luồng Camera.
+
 

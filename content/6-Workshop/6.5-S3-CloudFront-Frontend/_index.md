@@ -1,9 +1,9 @@
----
+﻿---
 title: "Phase 5: Frontend Hosting with S3 & CloudFront"
 date: 2024-01-01
 weight: 5
 chapter: false
-pre: " <b> 5.5 </b> "
+pre: " <b> 6.5 </b> "
 ---
 
 # Deploy Frontend (Next.js) with S3 & CloudFront
@@ -20,7 +20,7 @@ The Frontend component of the application (Next.js) will be built into static fi
 4. Under **Block Public Access**, keep the **Block all public access** checkbox ticked. The system will lock this bucket down, only allowing CloudFront to access the files (Enterprise Security).
 5. Scroll to the bottom and click **Create bucket**.
 
-![Create S3](/images/5-Workshop/5.5-S3-CloudFront-Frontend/5.5-s3-step1.png)
+![Create S3](5.5-s3-step1.png)
 
 ---
 
@@ -58,7 +58,7 @@ _(New AWS CloudFront Interface 2024)_
    - Thanks to a new AWS feature, CloudFront will automatically update the Policy for the S3 Bucket, so we don't need to do it manually anymore.
    - You just need to click **Create distribution** at the bottom.
 
-![Create CloudFront](/images/5-Workshop/5.5-S3-CloudFront-Frontend/5.5-s3-step3.png)
+![Create CloudFront](5.5-s3-step3.png)
 
 ---
 
@@ -83,4 +83,5 @@ Because the AWS quick-create interface hides some settings, we need to add them 
 
 Return to the CloudFront interface, copy the URL under **Distribution domain name** (Example: `d1234abcd.cloudfront.net`).
 Paste it into your browser, and you will see your Web application load smoothly with a secure HTTPS padlock, ready for the Camera stream.
+
 

@@ -16,7 +16,7 @@ Phần này giới thiệu hệ thống chức năng chuyên biệt dành cho Gi
 
 <div align="center">
 
-![Hình 5.1: Giao diện trang Dashboard dành cho tài khoản giáo viên của hệ thống](/images/5-Project/5.6-Teacher-Function-Pages/image.png)
+![Hình 5.1: Giao diện trang Dashboard dành cho tài khoản giáo viên của hệ thống](image.png)
 
 **Hình 5.1. Giao diện trang Dashboard dành cho tài khoản giáo viên của hệ thống**
 
@@ -32,7 +32,7 @@ Phần này giới thiệu hệ thống chức năng chuyên biệt dành cho Gi
 
 <div align="center">
 
-![Hình 5.2: Giao diện trang Biên soạn đề thi của hệ thống](/images/5-Project/5.6-Teacher-Function-Pages/image-1.png)
+![Hình 5.2: Giao diện trang Biên soạn đề thi của hệ thống](image-1.png)
 
 **Hình 5.2. Giao diện trang Biên soạn đề thi của hệ thống**
 
@@ -48,7 +48,7 @@ Phần này giới thiệu hệ thống chức năng chuyên biệt dành cho Gi
 
 <div align="center">
 
-![Hình 5.3: Giao diện trang Kho đề của tôi của hệ thống](/images/5-Project/5.6-Teacher-Function-Pages/image-2.png)
+![Hình 5.3: Giao diện trang Kho đề của tôi của hệ thống](image-2.png)
 
 **Hình 5.3. Giao diện trang Kho đề của tôi của hệ thống**
 
@@ -64,7 +64,7 @@ Phần này giới thiệu hệ thống chức năng chuyên biệt dành cho Gi
 
 <div align="center">
 
-![Hình 5.4: Giao diện trang Phòng thi & giám sát](/images/5-Project/5.6-Teacher-Function-Pages/image-3.png)
+![Hình 5.4: Giao diện trang Phòng thi & giám sát](image-3.png)
 
 **Hình 5.4. Giao diện trang Phòng thi & giám sát trực tuyến**
 
@@ -72,7 +72,7 @@ Phần này giới thiệu hệ thống chức năng chuyên biệt dành cho Gi
 
 <div align="center">
 
-![Hình 5.4b: Giao diện báo cáo vi phạm tự động từ AI YOLO của học viên](/images/5-Project/5.6-Teacher-Function-Pages/image-proctoring-violations.jpg)
+![Hình 5.4b: Giao diện báo cáo vi phạm tự động từ AI YOLO của học viên](image-proctoring-violations.jpg)
 
 **Hình 5.4b. Giao diện báo cáo vi phạm tự động từ AI YOLO (YOLO Proctoring V1.0)**
 
@@ -89,7 +89,7 @@ Phần này giới thiệu hệ thống chức năng chuyên biệt dành cho Gi
 
 <div align="center">
 
-![Hình 5.5: Giao diện trang Quản lý lớp học của hệ thống](/images/5-Project/5.6-Teacher-Function-Pages/image-4.png)
+![Hình 5.5: Giao diện trang Quản lý lớp học của hệ thống](image-4.png)
 
 **Hình 5.5. Giao diện trang Quản lý lớp học của hệ thống**
 
@@ -105,7 +105,7 @@ Phần này giới thiệu hệ thống chức năng chuyên biệt dành cho Gi
 
 <div align="center">
 
-![Hình 5.6: Giao diện trang Ngân hàng đề thi của hệ thống](/images/5-Project/5.6-Teacher-Function-Pages/image-5.png)
+![Hình 5.6: Giao diện trang Ngân hàng đề thi của hệ thống](image-5.png)
 
 **Hình 5.6. Giao diện trang Ngân hàng đề thi của hệ thống**
 
@@ -121,7 +121,7 @@ Phần này giới thiệu hệ thống chức năng chuyên biệt dành cho Gi
 
 <div align="center">
 
-![Hình 5.7: Giao diện trang Tài liệu giảng dạy của hệ thống](/images/5-Project/5.6-Teacher-Function-Pages/image-6.png)
+![Hình 5.7: Giao diện trang Tài liệu giảng dạy của hệ thống](image-6.png)
 
 **Hình 5.7. Giao diện trang Tài liệu giảng dạy của hệ thống**
 
@@ -137,7 +137,7 @@ Phần này giới thiệu hệ thống chức năng chuyên biệt dành cho Gi
 
 <div align="center">
 
-![Hình 5.8: Giao diện trang Báo cáo phân tích của hệ thống](/images/5-Project/5.6-Teacher-Function-Pages/image-7.png)
+![Hình 5.8: Giao diện trang Báo cáo phân tích của hệ thống](image-7.png)
 
 **Hình 5.8. Giao diện trang Báo cáo phân tích của hệ thống**
 
@@ -153,7 +153,7 @@ Phần này giới thiệu hệ thống chức năng chuyên biệt dành cho Gi
 
 <div align="center">
 
-![Hình 5.9: Giao diện trang thông báo của hệ thống](/images/5-Project/5.6-Teacher-Function-Pages/image-8.png)
+![Hình 5.9: Giao diện trang thông báo của hệ thống](image-8.png)
 
 **Hình 5.9. Giao diện trang thông báo của hệ thống**
 
@@ -169,7 +169,7 @@ Phần này giới thiệu hệ thống chức năng chuyên biệt dành cho Gi
 
 <div align="center">
 
-![Hình 5.10: Giao diện trang Hồ sơ cá nhân của hệ thống](/images/5-Project/5.6-Teacher-Function-Pages/image-9.png)
+![Hình 5.10: Giao diện trang Hồ sơ cá nhân của hệ thống](image-9.png)
 
 **Hình 5.10. Giao diện trang Hồ sơ cá nhân của hệ thống**
 
@@ -178,4 +178,3 @@ Phần này giới thiệu hệ thống chức năng chuyên biệt dành cho Gi
 **Chức năng chính:**
 - **Hồ sơ giảng dạy:** Cập nhật thông tin học hàm/học vị, bộ môn giảng dạy và thông tin liên hệ dành cho học viên.
 - **Cấu hình bảo mật:** Đổi mật khẩu và cài đặt các thông báo email tự động khi học viên nộp bài thi.
-

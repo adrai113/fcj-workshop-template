@@ -3,7 +3,7 @@ title: "Giai đoạn 2: Khởi tạo Mạng ảo (VPC)"
 date: 2024-01-01
 weight: 2
 chapter: false
-pre: " <b> 5.2 </b> "
+pre: " <b> 6.2 </b> "
 ---
 
 # Khởi tạo Mạng ảo (VPC) chuẩn Enterprise
@@ -30,7 +30,7 @@ Tính năng "VPC and more" của AWS giúp vẽ và khởi tạo toàn bộ hạ
    - **VPC endpoints:** Chọn **None**.
 5. Bấm nút **Create VPC** và chờ AWS hoàn tất khởi tạo.
 
-![Create VPC](/images/5-Workshop/5.2-VPC-Network/5.2-vpc-step1.png)
+![](5.2-vpc-step1.png)
 
 ---
 
@@ -45,7 +45,7 @@ Tính năng "VPC and more" của AWS giúp vẽ và khởi tạo toàn bộ hạ
 5. Lặp lại y chang các bước 2-4 cho subnet public thứ hai: **`aura-academic-subnet-public2-ap-southeast-1b`**.
 *(Lưu ý: Tuyệt đối không bật tính năng này cho 2 cái Subnets có chữ `private`).*
 
-![Auto assign IP](/images/5-Workshop/5.2-VPC-Network/5.2-vpc-step2.png)
+![](5.2-vpc-step2.png)
 
 ---
 
@@ -59,7 +59,7 @@ Security Group (SG) đóng vai trò là "chốt chặn sống còn" để kiểm
    - VPC: Chọn VPC `aura-academic` vừa tạo.
    - Inbound rules: Cho phép `HTTP` (Port 80) và `HTTPS` (Port 443) từ `Anywhere-IPv4`.
 
-![ALB Security Group](/images/5-Workshop/5.2-VPC-Network/5.2-vpc-step3-alb.png)
+![](5.2-vpc-step3-alb.png)
 
 3. **ECS Backend Security Group (Cho vùng Private):**
    - Tên: `aura-academic-ecs-sg`
@@ -67,7 +67,7 @@ Security Group (SG) đóng vai trò là "chốt chặn sống còn" để kiểm
    - Inbound rules: 
      - Custom TCP, Port `8080`, Source: Click vào ô kính lúp và gõ `alb`, sau đó chọn đúng tên **`aura-academic-alb-sg`** (Chỉ cho phép traffic đi từ ALB vào Backend).
 
-![ECS Security Group](/images/5-Workshop/5.2-VPC-Network/5.2-vpc-step3-ecs.png)
+![](5.2-vpc-step3-ecs.png)
 
 4. **EC2 AI Security Group (Cho vùng Private):**
    - Tên: `aura-academic-ai-sg`
@@ -77,9 +77,10 @@ Security Group (SG) đóng vai trò là "chốt chặn sống còn" để kiểm
      - Custom TCP, Port `4000`, Source: Click vào ô kính lúp và gõ `ecs`, sau đó chọn **`aura-academic-ecs-sg`** (Cho API nội bộ từ Backend gọi sang).
      - (Tuyệt đối **KHÔNG CẦN** mở Port 22 SSH vì chúng ta sẽ dùng tính năng Session Manager siêu bảo mật của AWS để connect thẳng vào Private Subnet).
 
-![EC2 AI Security Group](/images/5-Workshop/5.2-VPC-Network/5.2-vpc-step3-ec2.png)
+![](5.2-vpc-step3-ec2.png)
 
 ---
 
-Đến đây, khung xương hạ tầng mạng Enterprise vững chắc của hệ thống đã sẵn sàng! Chúng ta có thể chuyển sang [Giai đoạn tiếp theo](../5.3-ecs-backend) để cấu hình Backend.
+Đến đây, khung xương hạ tầng mạng Enterprise vững chắc của hệ thống đã sẵn sàng! Chúng ta có thể chuyển sang [Giai đoạn tiếp theo](../6.3-ecs-backend) để cấu hình Backend.
+
 

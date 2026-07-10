@@ -16,7 +16,7 @@ This section provides an in-depth look at large-scale exam management, advanced 
 
 <div align="center">
 
-![Figure 5.1: Exam Administration Page Interface](/images/5-Project/5.5-Admin-Function-Pages2/image.png)
+![Figure 5.1: Exam Administration Page Interface](image.png)
 
 **Figure 5.1. Exam Administration Page Interface**
 
@@ -32,7 +32,7 @@ This section provides an in-depth look at large-scale exam management, advanced 
 
 <div align="center">
 
-![Figure 5.2: Question Editor Page Interface](/images/5-Project/5.5-Admin-Function-Pages2/image-1.png)
+![Figure 5.2: Question Editor Page Interface](image-1.png)
 
 **Figure 5.2. Question Editor Page Interface**
 
@@ -48,7 +48,7 @@ This section provides an in-depth look at large-scale exam management, advanced 
 
 <div align="center">
 
-![Figure 5.3: Question Bank Page Interface](/images/5-Project/5.5-Admin-Function-Pages2/image-2.png)
+![Figure 5.3: Question Bank Page Interface](image-2.png)
 
 **Figure 5.3. Question Bank Page Interface**
 
@@ -64,7 +64,7 @@ This section provides an in-depth look at large-scale exam management, advanced 
 
 <div align="center">
 
-![Figure 5.4: Document Management Page Interface](/images/5-Project/5.5-Admin-Function-Pages2/image-3.png)
+![Figure 5.4: Document Management Page Interface](image-3.png)
 
 **Figure 5.4. Document Management Page Interface**
 
@@ -80,7 +80,7 @@ This section provides an in-depth look at large-scale exam management, advanced 
 
 <div align="center">
 
-![Figure 5.5: Content & Media Page Interface](/images/5-Project/5.5-Admin-Function-Pages2/image-4.png)
+![Figure 5.5: Content & Media Page Interface](image-4.png)
 
 **Figure 5.5. Content & Media Page Interface**
 
@@ -96,7 +96,7 @@ This section provides an in-depth look at large-scale exam management, advanced 
 
 <div align="center">
 
-![Figure 5.6: Audit Logs Page Interface](/images/5-Project/5.5-Admin-Function-Pages2/image-5.png)
+![Figure 5.6: Audit Logs Page Interface](image-5.png)
 
 **Figure 5.6. Audit Logs Page Interface**
 
@@ -112,7 +112,7 @@ This section provides an in-depth look at large-scale exam management, advanced 
 
 <div align="center">
 
-![Figure 5.7: User Sessions Page Interface](/images/5-Project/5.5-Admin-Function-Pages2/image-6.png)
+![Figure 5.7: User Sessions Page Interface](image-6.png)
 
 **Figure 5.7. User Sessions Page Interface**
 

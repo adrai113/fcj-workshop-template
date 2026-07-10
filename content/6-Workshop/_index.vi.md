@@ -1,4 +1,4 @@
----
+﻿---
 title: "Triển khai Thực tế (Workshop)"
 date: 2024-01-01
 weight: 6
@@ -14,7 +14,7 @@ Trong phần này, chúng ta sẽ bắt tay vào thực hành triển khai toàn
 
 <div align="center">
 
-![Sơ đồ kiến trúc triển khai](/images/5-Workshop/BanFINAL.drawio.png)
+![Sơ đồ kiến trúc triển khai](BanFINAL.drawio.png)
 
 **Sơ đồ kiến trúc: Triển khai hệ thống AuraAcademic trên AWS**
 
@@ -37,4 +37,5 @@ Quá trình triển khai được chia thành 7 giai đoạn chính:
 7. [Dọn dẹp tài nguyên (Cleanup)](6.7-cleanup/) - Hướng dẫn xóa các dịch vụ để tránh phát sinh chi phí.
 
 > **Lưu ý:** Hãy chuẩn bị sẵn sàng tài khoản AWS và bắt đầu đi tuần tự từng bước nhé!
+
 

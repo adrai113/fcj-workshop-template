@@ -1,4 +1,4 @@
----
+﻿---
 title: "Practical Deployment (Workshop)"
 date: 2024-01-01
 weight: 6
@@ -14,7 +14,7 @@ In this section, we will practice deploying the entire **AuraAcademic** system a
 
 <div align="center">
 
-![Architecture Diagram](/images/5-Workshop/BanFINAL.drawio.png)
+![Architecture Diagram](BanFINAL.drawio.png)
 
 **Architecture Diagram: AuraAcademic System Deployment on AWS**
 
@@ -37,4 +37,5 @@ The deployment process is divided into 7 main stages:
 7. [Resource Cleanup](6.7-cleanup/) - Guide to deleting services to avoid incurring costs.
 
 > **Note:** Get your AWS account ready and let's go step-by-step!
+
 

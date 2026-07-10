@@ -1,1 +1,16 @@
-<img src="{{ .Destination | absURL }}" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}"{{ end }} />
+{{ $url := .Destination }}
+{{ if hasPrefix $url "http" }}
+  {{ $url = $url | safeURL }}
+{{ else if hasPrefix $url "/" }}
+  {{ $url = $url | relURL }}
+{{ else if hasPrefix $url "images/" }}
+  {{ $url = $url | relURL }}
+{{ else }}
+  {{ $res := .Page.Resources.GetMatch $url }}
+  {{ if $res }}
+    {{ $url = $res.RelPermalink }}
+  {{ else }}
+    {{ $url = $url | safeURL }}
+  {{ end }}
+{{ end }}
+<img src="{{ $url }}" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}"{{ end }} />

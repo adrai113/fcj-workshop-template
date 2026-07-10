@@ -16,7 +16,7 @@ Phần này giới thiệu không gian quản trị tổng thể (Admin Dashboar
 
 <div align="center">
 
-![Hình 5.1: Giao diện trang tổng quan quản trị của hệ thống](/images/5-Project/5.4-Admin-Function-Pages/image.png)
+![Hình 5.1: Giao diện trang tổng quan quản trị của hệ thống](image.png)
 
 **Hình 5.1. Giao diện trang tổng quan quản trị của hệ thống**
 
@@ -32,7 +32,7 @@ Phần này giới thiệu không gian quản trị tổng thể (Admin Dashboar
 
 <div align="center">
 
-![Hình 5.2: Giao diện trang Thống kê & báo cáo của hệ thống](/images/5-Project/5.4-Admin-Function-Pages/image-1.png)
+![Hình 5.2: Giao diện trang Thống kê & báo cáo của hệ thống](image-1.png)
 
 **Hình 5.2. Giao diện trang Thống kê & báo cáo của hệ thống**
 
@@ -48,7 +48,7 @@ Phần này giới thiệu không gian quản trị tổng thể (Admin Dashboar
 
 <div align="center">
 
-![Hình 5.3: Giao diện trang Trung tâm hỗ trợ Trực tuyến của hệ thống](/images/5-Project/5.4-Admin-Function-Pages/image-2.png)
+![Hình 5.3: Giao diện trang Trung tâm hỗ trợ Trực tuyến của hệ thống](image-2.png)
 
 **Hình 5.3. Giao diện trang Trung tâm hỗ trợ Trực tuyến của hệ thống**
 
@@ -64,7 +64,7 @@ Phần này giới thiệu không gian quản trị tổng thể (Admin Dashboar
 
 <div align="center">
 
-![Hình 5.4: Giao diện trang Quản lý người dùng của hệ thống](/images/5-Project/5.4-Admin-Function-Pages/image-3.png)
+![Hình 5.4: Giao diện trang Quản lý người dùng của hệ thống](image-3.png)
 
 **Hình 5.4. Giao diện trang Quản lý người dùng của hệ thống**
 
@@ -80,7 +80,7 @@ Phần này giới thiệu không gian quản trị tổng thể (Admin Dashboar
 
 <div align="center">
 
-![Hình 5.5: Giao diện trang Xác thực giáo viên của hệ thống](/images/5-Project/5.4-Admin-Function-Pages/image-4.png)
+![Hình 5.5: Giao diện trang Xác thực giáo viên của hệ thống](image-4.png)
 
 **Hình 5.5. Giao diện trang Xác thực giáo viên của hệ thống**
 
@@ -96,7 +96,7 @@ Phần này giới thiệu không gian quản trị tổng thể (Admin Dashboar
 
 <div align="center">
 
-![Hình 5.6: Giao diện trang Phân quyền của hệ thống](/images/5-Project/5.4-Admin-Function-Pages/image-5.png)
+![Hình 5.6: Giao diện trang Phân quyền của hệ thống](image-5.png)
 
 **Hình 5.6. Giao diện trang Phân quyền của hệ thống**
 
@@ -105,4 +105,3 @@ Phần này giới thiệu không gian quản trị tổng thể (Admin Dashboar
 **Chức năng chính:**
 - **Thiết lập vai trò bảo mật:** Định nghĩa các nhóm quyền (Student, Teacher, Content Admin, Super Admin).
 - **Cấp phát quyền hạn chi tiết:** Cấu hình chi tiết từng quyền thao tác (Tạo đề, Xóa người dùng, Xem báo cáo) cho từng nhóm vai trò nhằm đảm bảo an toàn thông tin tối đa.
-

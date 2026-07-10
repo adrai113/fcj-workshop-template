@@ -1,9 +1,9 @@
----
+﻿---
 title: "Giai đoạn 3: Triển khai Backend (ECS Fargate)"
 date: 2024-01-01
 weight: 3
 chapter: false
-pre: " <b> 5.3 </b> "
+pre: " <b> 6.3 </b> "
 ---
 
 # Triển khai Backend (ECS Fargate) chuẩn Enterprise
@@ -20,7 +20,7 @@ Trong giai đoạn này, chúng ta sẽ thiết lập hạ tầng cốt lõi cho
 4. Repository name: **`aura-academic-be`**.
 5. Nhấn **Create repository**.
 
-![Create ECR](/images/5-Workshop/5.3-ECS-Backend/5.3-ecs-step1.png)
+![Create ECR](5.3-ecs-step1.png)
 
 ---
 
@@ -51,7 +51,7 @@ ALB sẽ đóng vai trò "Lễ tân", đứng ở Public Subnet đón request v�
    - Click vào ô tìm kiếm và chọn cái **`aura-academic-ecs-tg`** vừa tạo.
 9. Nhấn **Create load balancer**.
 
-![Create ALB](/images/5-Workshop/5.3-ECS-Backend/5.3-ecs-step2.png)
+![Create ALB](5.3-ecs-step2.png)
 
 ---
 
@@ -62,7 +62,7 @@ ALB sẽ đóng vai trò "Lễ tân", đứng ở Public Subnet đón request v�
 3. Infrastructure: Chọn **AWS Fargate** (Serverless).
 4. Nhấn **Create**.
 
-![Create Cluster](/images/5-Workshop/5.3-ECS-Backend/5.3-ecs-step3.png)
+![Create Cluster](5.3-ecs-step3.png)
 
 ---
 
@@ -79,7 +79,7 @@ ALB sẽ đóng vai trò "Lễ tân", đứng ở Public Subnet đón request v�
    - Container port: `8080`.
 7. Nhấn **Create**.
 
-![Task Definition](/images/5-Workshop/5.3-ECS-Backend/5.3-ecs-step4.png)
+![Task Definition](5.3-ecs-step4.png)
 
 ---
 
@@ -106,7 +106,8 @@ ALB sẽ đóng vai trò "Lễ tân", đứng ở Public Subnet đón request v�
    - Target group: Chọn **Use an existing target group** -> Chọn `aura-academic-ecs-tg`.
 8. Nhấn **Create**.
 
-![Create Service](/images/5-Workshop/5.3-ECS-Backend/5.3-ecs-step5.png)
+![Create Service](5.3-ecs-step5.png)
 
 Backend của bạn giờ đây đã được bảo vệ tối đa và chỉ tiếp xúc với thế giới bên ngoài thông qua ALB!
+
 
