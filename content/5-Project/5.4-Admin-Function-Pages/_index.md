@@ -16,7 +16,7 @@ This section introduces the administrative overview (Admin Dashboard), detailed 
 
 <div align="center">
 
-![Figure 5.1: Admin Dashboard Interface](image.png)
+![Figure 5.1: Admin Dashboard Interface](/images/5-Project/5.4-Admin-Function-Pages/image.png)
 
 **Figure 5.1. Admin Dashboard Interface**
 
@@ -32,7 +32,7 @@ This section introduces the administrative overview (Admin Dashboard), detailed 
 
 <div align="center">
 
-![Figure 5.2: Statistics & Reports Page Interface](image-1.png)
+![Figure 5.2: Statistics & Reports Page Interface](/images/5-Project/5.4-Admin-Function-Pages/image-1.png)
 
 **Figure 5.2. Statistics & Reports Page Interface**
 
@@ -48,7 +48,7 @@ This section introduces the administrative overview (Admin Dashboard), detailed 
 
 <div align="center">
 
-![Figure 5.3: Online Support Center Page Interface](image-2.png)
+![Figure 5.3: Online Support Center Page Interface](/images/5-Project/5.4-Admin-Function-Pages/image-2.png)
 
 **Figure 5.3. Online Support Center Page Interface**
 
@@ -64,7 +64,7 @@ This section introduces the administrative overview (Admin Dashboard), detailed 
 
 <div align="center">
 
-![Figure 5.4: User Management Page Interface](image-3.png)
+![Figure 5.4: User Management Page Interface](/images/5-Project/5.4-Admin-Function-Pages/image-3.png)
 
 **Figure 5.4. User Management Page Interface**
 
@@ -80,7 +80,7 @@ This section introduces the administrative overview (Admin Dashboard), detailed 
 
 <div align="center">
 
-![Figure 5.5: Teacher Verification Page Interface](image-4.png)
+![Figure 5.5: Teacher Verification Page Interface](/images/5-Project/5.4-Admin-Function-Pages/image-4.png)
 
 **Figure 5.5. Teacher Verification Page Interface**
 
@@ -96,7 +96,7 @@ This section introduces the administrative overview (Admin Dashboard), detailed 
 
 <div align="center">
 
-![Figure 5.6: Role & Permission Page Interface](image-5.png)
+![Figure 5.6: Role & Permission Page Interface](/images/5-Project/5.4-Admin-Function-Pages/image-5.png)
 
 **Figure 5.6. Role & Permission Page Interface**
 

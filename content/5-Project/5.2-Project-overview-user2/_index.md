@@ -76,3 +76,4 @@ Since all resources are located in the Public Subnet, the Security Group (SG) ac
 ---
 
 At this point, the super cost-effective and secure network backbone of the system is ready! We can move on to the [Next Stage](../5.3-ecs-backend) to configure the Backend.
+

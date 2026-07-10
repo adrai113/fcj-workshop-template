@@ -16,7 +16,7 @@ Phần này giới thiệu các công cụ hỗ trợ ôn luyện tự do, tài 
 
 <div align="center">
 
-![Hình 5.1: Giao diện trang Ngân hàng đề thi của hệ thống](image.png)
+![Hình 5.1: Giao diện trang Ngân hàng đề thi của hệ thống](/images/5-Project/5.3-Project-overview-user3/image.png)
 
 **Hình 5.1. Giao diện trang Ngân hàng đề thi của hệ thống**
 
@@ -33,7 +33,7 @@ Phần này giới thiệu các công cụ hỗ trợ ôn luyện tự do, tài 
 
 <div align="center">
 
-![Hình 5.2: Giao diện trang Tài liệu học tập của hệ thống](image-1.png)
+![Hình 5.2: Giao diện trang Tài liệu học tập của hệ thống](/images/5-Project/5.3-Project-overview-user3/image-1.png)
 
 **Hình 5.2. Giao diện trang Tài liệu học tập của hệ thống**
 
@@ -49,7 +49,7 @@ Phần này giới thiệu các công cụ hỗ trợ ôn luyện tự do, tài 
 
 <div align="center">
 
-![Hình 5.3: Giao diện trang Thông báo của hệ thống](image-2.png)
+![Hình 5.3: Giao diện trang Thông báo của hệ thống](/images/5-Project/5.3-Project-overview-user3/image-2.png)
 
 **Hình 5.3. Giao diện trang Thông báo của hệ thống**
 
@@ -65,7 +65,7 @@ Phần này giới thiệu các công cụ hỗ trợ ôn luyện tự do, tài 
 
 <div align="center">
 
-![Hình 5.4: Giao diện trang Hồ sơ cá nhân của hệ thống](image-3.png)
+![Hình 5.4: Giao diện trang Hồ sơ cá nhân của hệ thống](/images/5-Project/5.3-Project-overview-user3/image-3.png)
 
 **Hình 5.4. Giao diện trang Hồ sơ cá nhân của hệ thống**
 

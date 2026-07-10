@@ -16,7 +16,7 @@ Phần này giới thiệu giao diện chính (Dashboard) và trải nghiệm th
 
 <div align="center">
 
-![Hình 5.1: Giao diện Dashboard của hệ thống](image.png)
+![Hình 5.1: Giao diện Dashboard của hệ thống](/images/5-Project/5.1-Project-overview-user/image.png)
 
 **Hình 5.1. Giao diện Dashboard của hệ thống**
 
@@ -33,7 +33,7 @@ Phần này giới thiệu giao diện chính (Dashboard) và trải nghiệm th
 
 <div align="center">
 
-![Hình 5.2: Giao diện Trang thi trực tuyến của hệ thống](image-1.png)
+![Hình 5.2: Giao diện Trang thi trực tuyến của hệ thống](/images/5-Project/5.1-Project-overview-user/image-1.png)
 
 **Hình 5.2. Giao diện Trang thi trực tuyến của hệ thống**
 
@@ -41,7 +41,7 @@ Phần này giới thiệu giao diện chính (Dashboard) và trải nghiệm th
 
 <div align="center">
 
-![Hình 5.3: Giao diện nhập mã phòng thi của hệ thống](image-2.png)
+![Hình 5.3: Giao diện nhập mã phòng thi của hệ thống](/images/5-Project/5.1-Project-overview-user/image-2.png)
 
 **Hình 5.3. Giao diện nhập mã phòng thi của hệ thống**
 
@@ -49,7 +49,7 @@ Phần này giới thiệu giao diện chính (Dashboard) và trải nghiệm th
 
 <div align="center">
 
-![Hình 5.3b: Giao diện phòng chờ kiểm tra & giám sát Camera bằng AI YOLO (YOLO Proctoring)](image-proctoring-lobby.jpg)
+![Hình 5.3b: Giao diện phòng chờ kiểm tra & giám sát Camera bằng AI YOLO (YOLO Proctoring)](/images/5-Project/5.1-Project-overview-user/image-proctoring-lobby.jpg)
 
 **Hình 5.3b. Giao diện phòng chờ kiểm tra & giám sát Camera bằng AI YOLO (YOLO Proctoring V1.0)**
 
@@ -65,7 +65,7 @@ Phần này giới thiệu giao diện chính (Dashboard) và trải nghiệm th
 
 <div align="center">
 
-![Hình 5.4: Giao diện sau khi nhấn làm bài thi của hệ thống](image-3.png)
+![Hình 5.4: Giao diện sau khi nhấn làm bài thi của hệ thống](/images/5-Project/5.1-Project-overview-user/image-3.png)
 
 **Hình 5.4. Giao diện sau khi nhấn làm bài thi của hệ thống**
 
@@ -73,7 +73,7 @@ Phần này giới thiệu giao diện chính (Dashboard) và trải nghiệm th
 
 <div align="center">
 
-![Hình 5.5: Giao diện làm bài thi của hệ thống](image-4.png)
+![Hình 5.5: Giao diện làm bài thi của hệ thống](/images/5-Project/5.1-Project-overview-user/image-4.png)
 
 **Hình 5.5. Giao diện làm bài thi của hệ thống**
 
@@ -81,7 +81,7 @@ Phần này giới thiệu giao diện chính (Dashboard) và trải nghiệm th
 
 <div align="center">
 
-![Hình 5.6: Giao diện xác nhận nộp bài thi của hệ thống](image-5.png)
+![Hình 5.6: Giao diện xác nhận nộp bài thi của hệ thống](/images/5-Project/5.1-Project-overview-user/image-5.png)
 
 **Hình 5.6. Giao diện xác nhận nộp bài thi của hệ thống**
 
@@ -89,7 +89,7 @@ Phần này giới thiệu giao diện chính (Dashboard) và trải nghiệm th
 
 <div align="center">
 
-![Hình 5.7: Giao diện hoàn thành bài thi của hệ thống](image-6.png)
+![Hình 5.7: Giao diện hoàn thành bài thi của hệ thống](/images/5-Project/5.1-Project-overview-user/image-6.png)
 
 **Hình 5.7. Giao diện hoàn thành bài thi của hệ thống**
 
@@ -99,3 +99,4 @@ Phần này giới thiệu giao diện chính (Dashboard) và trải nghiệm th
 - **Không gian làm bài tối ưu:** Màn hình chia bố cục khoa học gồm nội dung câu hỏi trắc nghiệm/tự luận và bảng điều hướng câu hỏi bên phải.
 - **Đồng hồ đếm ngược & Tự động nộp:** Đếm ngược thời gian thực, tự động lưu đáp án và tự động nộp bài khi hết giờ để bảo vệ kết quả của học viên.
 - **Chấm điểm & Tổng kết tức thì:** Hộp thoại xác nhận trước khi nộp, sau đó hiển thị ngay tổng kết điểm số, thời gian hoàn thành và tỉ lệ câu đúng/sai.
+

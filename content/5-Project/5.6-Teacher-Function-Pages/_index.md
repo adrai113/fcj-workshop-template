@@ -16,7 +16,7 @@ This section introduces the specialized functional ecosystem designed for Instru
 
 <div align="center">
 
-![Figure 5.1: Teacher Dashboard Page Interface](image.png)
+![Figure 5.1: Teacher Dashboard Page Interface](/images/5-Project/5.6-Teacher-Function-Pages/image.png)
 
 **Figure 5.1. Teacher Dashboard Page Interface**
 
@@ -32,7 +32,7 @@ This section introduces the specialized functional ecosystem designed for Instru
 
 <div align="center">
 
-![Figure 5.2: Test Creation Page Interface](image-1.png)
+![Figure 5.2: Test Creation Page Interface](/images/5-Project/5.6-Teacher-Function-Pages/image-1.png)
 
 **Figure 5.2. Test Creation Page Interface**
 
@@ -48,7 +48,7 @@ This section introduces the specialized functional ecosystem designed for Instru
 
 <div align="center">
 
-![Figure 5.3: My Question Repository Page Interface](image-2.png)
+![Figure 5.3: My Question Repository Page Interface](/images/5-Project/5.6-Teacher-Function-Pages/image-2.png)
 
 **Figure 5.3. My Question Repository Page Interface**
 
@@ -64,7 +64,7 @@ This section introduces the specialized functional ecosystem designed for Instru
 
 <div align="center">
 
-![Figure 5.4: Live Proctoring Page Interface](image-3.png)
+![Figure 5.4: Live Proctoring Page Interface](/images/5-Project/5.6-Teacher-Function-Pages/image-3.png)
 
 **Figure 5.4. Live Proctoring Page Interface**
 
@@ -72,7 +72,7 @@ This section introduces the specialized functional ecosystem designed for Instru
 
 <div align="center">
 
-![Figure 5.4b: AI YOLO Proctoring Violation Report Interface](image-proctoring-violations.jpg)
+![Figure 5.4b: AI YOLO Proctoring Violation Report Interface](/images/5-Project/5.6-Teacher-Function-Pages/image-proctoring-violations.jpg)
 
 **Figure 5.4b. AI YOLO Proctoring Automatic Violation Report Interface (YOLO Proctoring V1.0)**
 
@@ -89,7 +89,7 @@ This section introduces the specialized functional ecosystem designed for Instru
 
 <div align="center">
 
-![Figure 5.5: Classroom Management Page Interface](image-4.png)
+![Figure 5.5: Classroom Management Page Interface](/images/5-Project/5.6-Teacher-Function-Pages/image-4.png)
 
 **Figure 5.5. Classroom Management Page Interface**
 
@@ -105,7 +105,7 @@ This section introduces the specialized functional ecosystem designed for Instru
 
 <div align="center">
 
-![Figure 5.6: Question Bank Page Interface](image-5.png)
+![Figure 5.6: Question Bank Page Interface](/images/5-Project/5.6-Teacher-Function-Pages/image-5.png)
 
 **Figure 5.6. Question Bank Page Interface**
 
@@ -121,7 +121,7 @@ This section introduces the specialized functional ecosystem designed for Instru
 
 <div align="center">
 
-![Figure 5.7: Teaching Materials Page Interface](image-6.png)
+![Figure 5.7: Teaching Materials Page Interface](/images/5-Project/5.6-Teacher-Function-Pages/image-6.png)
 
 **Figure 5.7. Teaching Materials Page Interface**
 
@@ -137,7 +137,7 @@ This section introduces the specialized functional ecosystem designed for Instru
 
 <div align="center">
 
-![Figure 5.8: Performance Analytics Page Interface](image-7.png)
+![Figure 5.8: Performance Analytics Page Interface](/images/5-Project/5.6-Teacher-Function-Pages/image-7.png)
 
 **Figure 5.8. Performance Analytics Page Interface**
 
@@ -153,7 +153,7 @@ This section introduces the specialized functional ecosystem designed for Instru
 
 <div align="center">
 
-![Figure 5.9: Notifications Page Interface](image-8.png)
+![Figure 5.9: Notifications Page Interface](/images/5-Project/5.6-Teacher-Function-Pages/image-8.png)
 
 **Figure 5.9. Notifications Page Interface**
 
@@ -169,7 +169,7 @@ This section introduces the specialized functional ecosystem designed for Instru
 
 <div align="center">
 
-![Figure 5.10: Teacher Profile Page Interface](image-9.png)
+![Figure 5.10: Teacher Profile Page Interface](/images/5-Project/5.6-Teacher-Function-Pages/image-9.png)
 
 **Figure 5.10. Teacher Profile Page Interface**
 

@@ -16,7 +16,7 @@ Phần này giới thiệu chuyên sâu về công cụ quản lý kỳ thi quy 
 
 <div align="center">
 
-![Hình 5.1: Giao diện trang Quản trị kỳ thi và báo cáo của hệ thống](image.png)
+![Hình 5.1: Giao diện trang Quản trị kỳ thi và báo cáo của hệ thống](/images/5-Project/5.5-Admin-Function-Pages2/image.png)
 
 **Hình 5.1. Giao diện trang Quản trị kỳ thi và báo cáo của hệ thống**
 
@@ -32,7 +32,7 @@ Phần này giới thiệu chuyên sâu về công cụ quản lý kỳ thi quy 
 
 <div align="center">
 
-![Hình 5.2: Giao diện trang Biên soạn đề thi của hệ thống](image-1.png)
+![Hình 5.2: Giao diện trang Biên soạn đề thi của hệ thống](/images/5-Project/5.5-Admin-Function-Pages2/image-1.png)
 
 **Hình 5.2. Giao diện trang Biên soạn đề thi của hệ thống**
 
@@ -48,7 +48,7 @@ Phần này giới thiệu chuyên sâu về công cụ quản lý kỳ thi quy 
 
 <div align="center">
 
-![Hình 5.3: Giao diện trang Ngân hàng đề thi của hệ thống](image-2.png)
+![Hình 5.3: Giao diện trang Ngân hàng đề thi của hệ thống](/images/5-Project/5.5-Admin-Function-Pages2/image-2.png)
 
 **Hình 5.3. Giao diện trang Ngân hàng đề thi của hệ thống**
 
@@ -64,7 +64,7 @@ Phần này giới thiệu chuyên sâu về công cụ quản lý kỳ thi quy 
 
 <div align="center">
 
-![Hình 5.4: Giao diện trang Quản lý tài liệu của hệ thống](image-3.png)
+![Hình 5.4: Giao diện trang Quản lý tài liệu của hệ thống](/images/5-Project/5.5-Admin-Function-Pages2/image-3.png)
 
 **Hình 5.4. Giao diện trang Quản lý tài liệu của hệ thống**
 
@@ -80,7 +80,7 @@ Phần này giới thiệu chuyên sâu về công cụ quản lý kỳ thi quy 
 
 <div align="center">
 
-![Hình 5.5: Giao diện trang Nội dung & Media của hệ thống](image-4.png)
+![Hình 5.5: Giao diện trang Nội dung & Media của hệ thống](/images/5-Project/5.5-Admin-Function-Pages2/image-4.png)
 
 **Hình 5.5. Giao diện trang Nội dung & Media của hệ thống**
 
@@ -96,7 +96,7 @@ Phần này giới thiệu chuyên sâu về công cụ quản lý kỳ thi quy 
 
 <div align="center">
 
-![Hình 5.6: Giao diện trang Audit Logs của hệ thống](image-5.png)
+![Hình 5.6: Giao diện trang Audit Logs của hệ thống](/images/5-Project/5.5-Admin-Function-Pages2/image-5.png)
 
 **Hình 5.6. Giao diện trang Audit Logs của hệ thống**
 
@@ -112,7 +112,7 @@ Phần này giới thiệu chuyên sâu về công cụ quản lý kỳ thi quy 
 
 <div align="center">
 
-![Hình 5.7: Giao diện trang Quản lý phiên đăng nhập của hệ thống](image-6.png)
+![Hình 5.7: Giao diện trang Quản lý phiên đăng nhập của hệ thống](/images/5-Project/5.5-Admin-Function-Pages2/image-6.png)
 
 **Hình 5.7. Giao diện trang Quản lý phiên đăng nhập của hệ thống**
 
@@ -121,3 +121,4 @@ Phần này giới thiệu chuyên sâu về công cụ quản lý kỳ thi quy 
 **Chức năng chính:**
 - **Giám sát thiết bị kết nối:** Danh sách các thiết bị và địa chỉ IP đang đăng nhập vào hệ thống theo thời gian thực.
 - **Chấm dứt phiên bất thường:** Thu hồi quyền truy cập (Đăng xuất từ xa) đối với các tài khoản có dấu hiệu nghi vấn hoặc đăng nhập trên thiết bị lạ.
+

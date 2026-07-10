@@ -16,7 +16,7 @@ This section introduces the self-practice question repository, digital library, 
 
 <div align="center">
 
-![Figure 5.1: Question Bank Page Interface](image.png)
+![Figure 5.1: Question Bank Page Interface](/images/5-Project/5.3-Project-overview-user3/image.png)
 
 **Figure 5.1. Question Bank Page Interface**
 
@@ -33,7 +33,7 @@ This section introduces the self-practice question repository, digital library, 
 
 <div align="center">
 
-![Figure 5.2: Study Materials Page Interface](image-1.png)
+![Figure 5.2: Study Materials Page Interface](/images/5-Project/5.3-Project-overview-user3/image-1.png)
 
 **Figure 5.2. Study Materials Page Interface**
 
@@ -49,7 +49,7 @@ This section introduces the self-practice question repository, digital library, 
 
 <div align="center">
 
-![Figure 5.3: Notifications Page Interface](image-2.png)
+![Figure 5.3: Notifications Page Interface](/images/5-Project/5.3-Project-overview-user3/image-2.png)
 
 **Figure 5.3. Notifications Page Interface**
 
@@ -65,7 +65,7 @@ This section introduces the self-practice question repository, digital library, 
 
 <div align="center">
 
-![Figure 5.4: User Profile Page Interface](image-3.png)
+![Figure 5.4: User Profile Page Interface](/images/5-Project/5.3-Project-overview-user3/image-3.png)
 
 **Figure 5.4. User Profile Page Interface**
 

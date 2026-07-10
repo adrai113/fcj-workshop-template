@@ -16,7 +16,7 @@ This section introduces the core Dashboard interface and the online examination 
 
 <div align="center">
 
-![Figure 5.1: System Dashboard Interface](image.png)
+![Figure 5.1: System Dashboard Interface](/images/5-Project/5.1-Project-overview-user/image.png)
 
 **Figure 5.1. System Dashboard Interface**
 
@@ -33,7 +33,7 @@ This section introduces the core Dashboard interface and the online examination 
 
 <div align="center">
 
-![Figure 5.2: Online Examination Page Interface](image-1.png)
+![Figure 5.2: Online Examination Page Interface](/images/5-Project/5.1-Project-overview-user/image-1.png)
 
 **Figure 5.2. Online Examination Page Interface**
 
@@ -41,7 +41,7 @@ This section introduces the core Dashboard interface and the online examination 
 
 <div align="center">
 
-![Figure 5.3: Exam Room Code Input Interface](image-2.png)
+![Figure 5.3: Exam Room Code Input Interface](/images/5-Project/5.1-Project-overview-user/image-2.png)
 
 **Figure 5.3. Exam Room Code Input Interface**
 
@@ -49,7 +49,7 @@ This section introduces the core Dashboard interface and the online examination 
 
 <div align="center">
 
-![Figure 5.3b: AI YOLO Camera Proctoring Lobby Interface](image-proctoring-lobby.jpg)
+![Figure 5.3b: AI YOLO Camera Proctoring Lobby Interface](/images/5-Project/5.1-Project-overview-user/image-proctoring-lobby.jpg)
 
 **Figure 5.3b. AI YOLO Camera Proctoring & Monitoring Lobby Interface (YOLO Proctoring V1.0)**
 
@@ -65,7 +65,7 @@ This section introduces the core Dashboard interface and the online examination 
 
 <div align="center">
 
-![Figure 5.4: Pre-Exam Confirmation Interface](image-3.png)
+![Figure 5.4: Pre-Exam Confirmation Interface](/images/5-Project/5.1-Project-overview-user/image-3.png)
 
 **Figure 5.4. Pre-Exam Confirmation Interface**
 
@@ -73,7 +73,7 @@ This section introduces the core Dashboard interface and the online examination 
 
 <div align="center">
 
-![Figure 5.5: Online Examination Interface](image-4.png)
+![Figure 5.5: Online Examination Interface](/images/5-Project/5.1-Project-overview-user/image-4.png)
 
 **Figure 5.5. Online Examination Interface**
 
@@ -81,7 +81,7 @@ This section introduces the core Dashboard interface and the online examination 
 
 <div align="center">
 
-![Figure 5.6: Exam Submission Confirmation Interface](image-5.png)
+![Figure 5.6: Exam Submission Confirmation Interface](/images/5-Project/5.1-Project-overview-user/image-5.png)
 
 **Figure 5.6. Exam Submission Confirmation Interface**
 
@@ -89,7 +89,7 @@ This section introduces the core Dashboard interface and the online examination 
 
 <div align="center">
 
-![Figure 5.7: Exam Completion Summary Interface](image-6.png)
+![Figure 5.7: Exam Completion Summary Interface](/images/5-Project/5.1-Project-overview-user/image-6.png)
 
 **Figure 5.7. Exam Completion Summary Interface**
 
@@ -99,3 +99,4 @@ This section introduces the core Dashboard interface and the online examination 
 - **Optimized Workspace:** Split-screen layout separating question content (multiple-choice/essay) from a quick-navigation question palette on the right.
 - **Real-Time Countdown & Auto-Submit:** Real-time countdown clock with automated answer saving and auto-submission upon time expiration to prevent data loss.
 - **Immediate Grading & Summary:** Confirmation prompt before submission, followed instantly by a detailed summary of score, completion time, and correct/incorrect ratios.
+
