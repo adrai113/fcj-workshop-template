@@ -8,45 +8,33 @@ pre: " <b> 1.7. </b> "
 
 ### Mục tiêu tuần 7:
 
-- Tiếp tục phát triển project nhóm.
-- Hoàn thiện các chức năng theo kế hoạch.
-- Cập nhật tài liệu workshop và báo cáo tiến độ.
-- Tham gia meeting First Cloud Journey để học hỏi thêm kiến thức và kinh nghiệm.
+- Dành thời gian tổng hợp, ôn tập và tinh chỉnh các kỹ năng liên quan đến Module 04 – Storage Services.
+- Đào sâu phân tích hiệu năng và thực hành các kỹ thuật chống thảm họa (Disaster Recovery) liên quan đến dữ liệu.
 
 ---
 
-### Các công việc cần triển khai trong tuần này:
+### Các công việc đã triển khai trong tuần:
 
-| Thứ | Công việc                                                                                                                                                                                                                           | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | -------------- |
-| 2   | - Thực tập tại công ty <br> - Tự học và trao đổi với nhóm về project                                                                                                                                                                | 01/06/2026   | 01/06/2026      |                |
-| 3   | - Tiếp tục phát triển project nhóm <br> - Hoàn thiện các chức năng được phân công                                                                                                                                                   | 02/06/2026   | 02/06/2026      |                |
-| 4   | - Kiểm tra, sửa lỗi và cập nhật mã nguồn <br> - Đồng bộ tiến độ với các thành viên                                                                                                                                                  | 03/06/2026   | 03/06/2026      |                |
-| 6   | - Cập nhật tài liệu workshop <br> - Tổng hợp tiến độ và chuẩn bị báo cáo                                                                                                                                                            | 05/06/2026   | 05/06/2026      |                |
-| 7   | - Tham gia meeting First Cloud Journey <br> - Docker <br> - WAF kết hợp Machine Learning trong phát hiện tấn công mạng <br> - Lắng nghe về Godot Engine <br> - Lắng nghe chia sẻ hành trình từ IT Helpdesk đến System Administrator | 06/06/2026   | 06/06/2026      |                |
+- **Ôn tập & Củng cố thực hành:** 
+  - Lặp lại việc cấu hình kết hợp S3 Bucket, Static Website và Amazon CloudFront nhưng với các yêu cầu khắt khe hơn: Dùng OAC (Origin Access Control) để ép người dùng chỉ được truy cập qua CDN, không được vào trực tiếp link S3.
+- **Chiến lược Disaster Recovery (DR):** 
+  - Thực hành cấu hình S3 Cross-Region Replication (CRR) để tự động đồng bộ file từ Region này sang Region khác nhằm dự phòng khi một Region gặp sự cố thảm họa.
+- **Giám sát & Quản lý:** 
+  - Thực hành đặt ra Storage Quotas.
+  - Tìm hiểu cách sử dụng S3 Storage Lens để phân tích xu hướng sử dụng dữ liệu, chi phí lưu trữ trên toàn bộ Organization.
+  - Quản lý và xử lý các file trùng lặp (Data Deduplication) trên hệ thống FSx.
+- **Tổng hợp tư liệu:** Xây dựng một bảng so sánh toàn diện (Cheat-sheet) giữa EBS, EFS, S3, và Glacier để làm tài liệu chuẩn bị cho module kiến trúc hệ thống và bảo mật ở tuần sau.
 
 ---
 
-### Kết quả đạt được tuần 7:
+### Kết quả đạt được:
 
-- Tham gia thực tập tại công ty, tự học và trao đổi với nhóm về tiến độ project.
-
-- Tiếp tục phát triển project và hoàn thiện các chức năng được phân công.
-
-- Cập nhật tài liệu workshop và tổng hợp tiến độ thực hiện dự án.
-
-- Tham gia meeting First Cloud Journey:
-  - Biết thêm về Docker và ứng dụng trong triển khai hệ thống.
-  - Biết thêm về WAF kết hợp Machine Learning trong phát hiện tấn công mạng.
-  - Biết thêm Godot Engine.
-  - Lắng nghe chia sẻ về hành trình phát triển nghề nghiệp từ IT Helpdesk đến System Administrator.
+- Nắm bắt được tư duy "Design for Failure" trên Cloud, đảm bảo dữ liệu luôn sống sót dù Data Center gặp sự cố nhờ CRR và Backup tự động.
+- Nâng cao trình độ bảo mật dữ liệu lưu trữ với OAC và CloudFront.
 
 ---
 
 ### Tự đánh giá:
 
-- Hoàn thành các công việc theo kế hoạch.
-- Biết thêm một số công nghệ và xu hướng được chia sẻ trong buổi meeting.
-- Tiếp tục hoàn thiện project và chuẩn bị cho giai đoạn kiểm thử.
-
----
+- Việc kết hợp CloudFront OAC và S3 tuy phức tạp về phân quyền nhưng đã thực hiện thành công.
+- Cảm thấy rất tự tin về mảng Storage và Networking, hoàn thành xuất sắc giai đoạn nửa đầu của kỳ thực tập.

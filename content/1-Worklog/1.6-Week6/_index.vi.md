@@ -8,45 +8,33 @@ pre: " <b> 1.6. </b> "
 
 ### Mục tiêu tuần 6:
 
-- Tham gia buổi meeting của First Cloud Journey.
-- Tiếp tục phát triển project nhóm theo kế hoạch.
-- Hoàn thiện tài liệu và kiến trúc hệ thống.
-- Chuẩn bị cho giai đoạn triển khai tiếp theo.
+- Nghiên cứu chuyên sâu Module 04 – Storage Services trên AWS.
+- Phân biệt rõ rệt các loại hình lưu trữ (Object, Block, File) và lựa chọn đúng dịch vụ cho từng Use-case cụ thể.
+- Thực hành các giải pháp sao lưu tập trung và kết nối môi trường lưu trữ lai (Hybrid Storage).
 
 ---
 
-### Các công việc cần triển khai trong tuần này:
+### Các công việc đã triển khai trong tuần:
 
-| Thứ | Công việc                                                                                                                                                                       | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | -------------- |
-| 2   | - Tiếp tục phát triển project nhóm <br> - Hoàn thiện các chức năng được phân công                                                                                               | 25/05/2026   | 25/05/2026      |                |
-| 3   | - Kiểm tra và xử lý các lỗi phát sinh <br> - Cập nhật mã nguồn và đồng bộ với nhóm                                                                                              | 26/05/2026   | 26/05/2026      |                |
-| 4   | - Cập nhật tài liệu dự án <br> - Hoàn thiện kiến trúc hệ thống                                                                                                                  | 27/05/2026   | 27/05/2026      |                |
-| 5   | - Tiếp tục phát triển project <br> - Kiểm thử các chức năng đã hoàn thành                                                                                                       | 28/05/2026   | 28/05/2026      |                |
-| 6   | - Tổng hợp tiến độ dự án <br> - Chuẩn bị nội dung báo cáo tuần                                                                                                                  | 29/05/2026   | 29/05/2026      |                |
-| 7   | - Tham gia meeting First Cloud Journey <br> - Lắng nghe chia sẻ về công nghệ, kinh nghiệm học tập <br> - Trao đổi các vấn đề của dự án <br> - Tìm hiểu AWS Cloud Quest và Floci | 30/05/2026   | 30/05/2026      |                |
+- **Tối ưu S3 Storage Classes:** Nghiên cứu và so sánh chi phí, hiệu năng của các hạng lưu trữ: S3 Standard, S3 Intelligent-Tiering, S3 Standard-IA, và S3 Glacier. Cấu hình S3 Lifecycle Rules để tự động chuyển dữ liệu cũ sang Glacier lưu trữ dài hạn.
+- **Quản lý quyền truy cập S3:** Áp dụng CORS (Cross-Origin Resource Sharing) để cho phép API từ domain khác lấy dữ liệu từ S3. Khám phá tính năng S3 Access Points.
+- **AWS Backup:** Cấu hình Backup Plan và Backup Vault trong dịch vụ AWS Backup để tự động hóa việc sao lưu định kỳ cho EC2 và EBS, thực hành quy trình Restore dữ liệu.
+- **Lưu trữ chia sẻ (File Systems):** 
+  - Triển khai Amazon EFS (Elastic File System) cho Linux, Mount EFS vào nhiều EC2 cùng một lúc để chia sẻ dữ liệu đồng thời.
+  - Tìm hiểu Amazon FSx dùng cho môi trường Windows (SMB).
+- **Môi trường lai (Hybrid):** Nghiên cứu dịch vụ AWS Storage Gateway (File Gateway, Volume Gateway, Tape Gateway) giúp mở rộng không gian lưu trữ từ On-premises lên thẳng AWS.
 
 ---
 
-### Kết quả đạt được tuần 6:
+### Kết quả đạt được:
 
-- Tham gia buổi meeting của First Cloud Journey và cập nhật các nội dung chia sẻ về công nghệ, kinh nghiệm học tập.
-
-- Biết thêm các nguồn hỗ trợ cho dự án:
-  - AWS Cloud Quest.
-  - Floci.
-
-- Tiếp tục phát triển project nhóm và hoàn thiện các chức năng được phân công.
-
-- Cập nhật tài liệu dự án và hoàn thiện kiến trúc hệ thống.
+- Sở hữu góc nhìn toàn cảnh và chi tiết về toàn bộ hệ sinh thái lưu trữ trên AWS Cloud.
+- Nắm được các chiến lược lưu trữ tiết kiệm chi phí thông qua Lifecycle Rules và Intelligent-Tiering.
+- Biết cách thiết lập môi trường lưu trữ dùng chung cho các cụm máy chủ thông qua EFS.
 
 ---
 
 ### Tự đánh giá:
 
-- Hoàn thành các công việc theo kế hoạch của tuần.
-- Có thêm kinh nghiệm làm việc nhóm và trao đổi trong dự án.
-- Biết thêm các công cụ hỗ trợ học tập và phát triển dự án trên AWS.
-- Tiếp tục hoàn thiện project và chuẩn bị cho các giai đoạn triển khai tiếp theo.
-
----
+- Khối lượng kiến thức lý thuyết về Storage khá nhiều (đặc biệt là Storage Gateway), tuy nhiên các bài thực hành S3 và EFS đều thành công tốt đẹp.
+- Đã sẵn sàng ứng dụng các giải pháp lưu trữ này vào đồ án cuối kỳ.

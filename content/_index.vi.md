@@ -8,17 +8,17 @@ chapter: false
 # Báo cáo thực tập
 
 ### Thông tin sinh viên:
-&emsp; **Họ và tên:** Trương Gia Huy
+&emsp; **Họ và tên:** Đậu Đại Tài
 
-&emsp; **Số điện thoại:** 0774477782
+&emsp; **Số điện thoại:** 0387472950
 
-&emsp; **Email:** huy12904@gmail.com
+&emsp; **Email:** toilatai2004@gmail.com
 
 &emsp; **Trường:** Đại học Công nghệ TP.HCM - HUTECH
 
 &emsp; **Ngành:** Công nghệ thông tin
 
-&emsp; **Lớp:** 22DTHG7
+&emsp; **Lớp:** 22DTHD1
 
 &emsp; **Công ty thực tập:** Công ty TNHH Amazon Web Services Vietnam
 

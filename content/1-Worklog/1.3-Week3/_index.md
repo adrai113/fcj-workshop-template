@@ -6,59 +6,38 @@ chapter: false
 pre: " <b> 1.3. </b> "
 ---
 
-### Objectives
+### Objectives of Week 3:
 
-- Learn AWS storage, database, and content delivery services.
-- Practice deploying a static website and connecting an application to a database.
-- Become familiar with AWS services for scaling, monitoring, and DNS management.
-- Continue practicing AWS CLI and learn the basics of NoSQL databases.
-- Participate in the internship at the company and discuss the project direction with the team.
+- Start Module 02 – AWS Networking & VPC of the "First Cloud AI Journey".
+- Comprehensively grasp how to design and build a secure, flexible Virtual Private Cloud (VPC) architecture.
+- Clearly distinguish network traffic access control mechanisms.
 
 ---
 
-### Weekly Tasks
+### Tasks Implemented in the Week:
 
-| Day       | Tasks                                                                                                                         | Start Date | Completion Date | Reference                               |
-| --------- | ----------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | --------------------------------------- |
-| Monday    | - Practice hosting a static website with Amazon S3 <br> - Configure Static Website Hosting <br> - Integrate Amazon CloudFront | 01/05/2026 | 01/05/2026      | https://cloudjourney.awsstudygroup.com/ |
-| Tuesday   | - Create and configure Amazon RDS <br> - Connect the application to the database <br> - Practice backup and restore           | 02/05/2026 | 02/05/2026      | https://cloudjourney.awsstudygroup.com/ |
-| Wednesday | - Attend the internship at the company <br> - Discuss the project direction with the team <br> - Continue practicing AWS labs | 06/05/2026 | 06/05/2026      |                                         |
-| Thursday  | - Learn Amazon Lightsail Containers <br> - Practice Amazon EC2 Auto Scaling <br> - Monitor resources using Amazon CloudWatch  | 04/05/2026 | 04/05/2026      | https://cloudjourney.awsstudygroup.com/ |
-| Friday    | - Manage DNS with Amazon Route 53 <br> - Practice AWS CLI <br> - Learn the basics of Amazon DynamoDB                          | 05/05/2026 | 05/05/2026      | https://cloudjourney.awsstudygroup.com/ |
-
----
-
-### Achievements
-
-- Practiced hosting a static website using Amazon S3 and Amazon CloudFront for content delivery.
-
-- Created and configured Amazon RDS:
-  - Connected the application to the database
-  - Performed database backup and restore
-
-- Learned about the following AWS services:
-  - Amazon Lightsail Containers
-  - Amazon EC2 Auto Scaling
-  - Amazon CloudWatch
-
-- Practiced DNS management with Amazon Route 53 and used AWS CLI to manage AWS resources.
-
-- Became familiar with Amazon DynamoDB and basic NoSQL database operations.
-
-- Participated in the internship at the company, discussed the project direction with the team, and planned the next development phases.
+- **Network Architecture (AWS VPC):** 
+  - Learned CIDR Block concepts and IP allocation for VPC. 
+  - Practiced creating Custom VPCs with specific configurations.
+- **Network Segmentation (Subnets & Routing):** 
+  - Designed and deployed Public Subnets (for internet-facing services) and Private Subnets (for Databases, Backend). 
+  - Configured Route Tables: Attached Internet Gateway (IGW) to Public Route Table and created NAT Gateway for Private Route Table to allow internal servers to download updates securely.
+- **Network Security (Security Groups & NACL):** 
+  - Compared and practiced configuring Stateful Firewalls (Security Groups) operating at the Instance level. 
+  - Configured Stateless Firewalls (Network ACLs) operating at the Subnet level to block/allow specific IPs.
+- **Connectivity Testing:** Deployed 2 EC2 instances (1 in Public, 1 in Private). SSH-ed into the Public instance (Bastion Host) then SSH-ed into the Private instance to verify the network architecture.
 
 ---
 
-### Self-evaluation
+### Achievements:
 
-- Successfully completed the learning activities related to AWS Storage, Database, Monitoring, and Networking services.
-
-- Learned more about deploying static websites and connecting applications to cloud databases.
-
-- Learned how to use AWS services for scaling and monitoring cloud applications.
-
-- Improved AWS CLI skills and gained basic experience with Amazon DynamoDB.
-
-- Gained practical working experience at the company and prepared for the project development phase.
+- Successfully built a basic 3-tier architecture with full Public/Private Subnets.
+- Clearly understood Packet Routing within the AWS VPC environment.
+- Mastered combining Security Groups and NACLs to protect the system from unauthorized external access.
 
 ---
+
+### Self-evaluation:
+
+- The Networking module contains abstract and challenging concepts; however, drawing network diagrams and doing hands-on practice solidified the knowledge.
+- Troubleshooting skills related to network connectivity issues (like wrong Routes or blocked ports) were enhanced.

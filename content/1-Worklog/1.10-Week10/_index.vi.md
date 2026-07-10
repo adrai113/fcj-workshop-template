@@ -8,42 +8,37 @@ pre: " <b> 1.10. </b> "
 
 ### Mục tiêu tuần 10:
 
-- Hoàn thiện các chức năng của project.
-- Kiểm thử tổng thể và đánh giá hệ thống.
-- Tối ưu tài nguyên và rà soát bảo mật.
-- Hoàn thiện tài liệu và nội dung trình bày.
+- Khám phá Module 07 – Data Analytics & Big Data, tiếp cận với các khái niệm xử lý dữ liệu khổng lồ trên đám mây.
+- Bắt tay vào hoàn thiện môi trường và khung mã nguồn (Source code framework) cho đồ án nhóm.
 
 ---
 
-### Các công việc cần triển khai trong tuần này:
+### Các công việc đã triển khai trong tuần:
 
-| Thứ | Công việc                                                       | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | --------------------------------------------------------------- | ------------ | --------------- | -------------- |
-| 2   | - Hoàn thiện các chức năng còn lại của project                  | 22/06/2026   | 22/06/2026      |                |
-| 3   | - Kiểm thử tổng thể <br> - Đánh giá độ ổn định của hệ thống     | 23/06/2026   | 23/06/2026      |                |
-| 4   | - Tối ưu tài nguyên <br> - Rà soát bảo mật và cấu hình hệ thống | 24/06/2026   | 24/06/2026      |                |
-| 5   | - Hoàn thiện tài liệu dự án <br> - Cập nhật sơ đồ kiến trúc     | 25/06/2026   | 25/06/2026      |                |
-| 6   | - Chuẩn bị nội dung trình bày <br> - Tổng hợp tiến độ dự án     | 26/06/2026   | 26/06/2026      |                |
+- **Kiến trúc Serverless Data & NoSQL:** 
+  - Khám phá dịch vụ NoSQL mạnh mẽ Amazon DynamoDB. Tìm hiểu về Partition Keys, Sort Keys và hiệu năng truy xuất tính bằng mili-giây.
+- **Quy trình ETL (Extract, Transform, Load):** 
+  - Tìm hiểu luồng xử lý dữ liệu: Nạp dữ liệu thô (Raw Data) vào Data Lake S3.
+  - Sử dụng AWS Glue Crawler để tự động phân tích schema dữ liệu và tạo Data Catalog.
+  - Dùng AWS Glue DataBrew để làm sạch và chuẩn hóa dữ liệu trực quan mà không cần viết code (No-code data preparation).
+- **Phân tích & Trực quan hóa:** 
+  - Truy vấn trực tiếp các file CSV, JSON dung lượng lớn trên S3 bằng Amazon Athena (Serverless SQL Query).
+  - Kết nối Amazon QuickSight để vẽ biểu đồ và xây dựng các trang Dashboard báo cáo BI (Business Intelligence) sinh động.
+- **Thực thi Đồ án Nhóm:** 
+  - Áp dụng kiến thức, lựa chọn DynamoDB cho các tác vụ cần tốc độ đọc/ghi nhanh của project.
+  - Cấu hình môi trường, thiết lập các Repository trên Github cho các thành viên.
 
 ---
 
-### Kết quả đạt được tuần 10:
+### Kết quả đạt được:
 
-- Hoàn thiện các chức năng còn lại và kiểm thử tổng thể hệ thống.
-
-- Tối ưu tài nguyên, rà soát bảo mật và kiểm tra khả năng vận hành thực tế.
-
-- Hoàn thiện tài liệu dự án, sơ đồ kiến trúc và nội dung trình bày.
-
-- Chuẩn bị các nội dung cần thiết cho giai đoạn báo cáo và nghiệm thu.
+- Hiểu trọn vẹn một đường ống xử lý dữ liệu (Data Pipeline) từ khâu lưu trữ thô đến khi ra được báo cáo trực quan BI.
+- Mở rộng kỹ năng xử lý dữ liệu lớn (Big Data) hoàn toàn dựa trên các dịch vụ Serverless (không cần quản lý máy chủ).
+- Khung dự án nhóm đã hình thành, môi trường làm việc nhóm sẵn sàng.
 
 ---
 
 ### Tự đánh giá:
 
-- Hoàn thành các công việc theo kế hoạch.
-- Biết thêm quy trình kiểm thử, tối ưu và rà soát hệ thống.
-- Cải thiện kỹ năng chuẩn bị tài liệu và thuyết trình dự án.
-- Sẵn sàng cho giai đoạn báo cáo và nghiệm thu project.
-
----
+- Dù kiến thức Data Analytics là một lĩnh vực mới mẻ, nhưng nhờ hệ sinh thái dịch vụ hoàn chỉnh của AWS, việc xây dựng Pipeline trở nên dễ tiếp cận.
+- Quá trình chuẩn bị code cho đồ án nhóm đang tiến triển đúng lịch trình.

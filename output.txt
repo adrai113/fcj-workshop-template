@@ -1,0 +1,454 @@
+﻿
+
+
+
+
+
+
+
+
+KHOA CÔNG NGHỆ THÔNG TIN
+
+
+BM03/QT05/ĐT-KT
+
+
+
+
+
+PHIẾU THEO DÕI TIẾN ĐỘ THỰC TẬP TỐT NGHIỆP
+
+
+
+
+
+Tên Tổ chức/Công ty (đơn vị thực tập): Công ty TNHH Amazon Web Services Viet Nam
+
+
+
+
+
+Cán bộ hướng dẫn tại đơn vị thực tập (họ tên – email):Nguyễn Gia Hưng - hunggia@amazon.com
+
+
+
+
+
+Giảng viên theo dõi/ hướng dẫn thực tập tại trường (họ tên – email): Trần Ngọc Kiến Phúc - tnk.phuc@hutech.edu.vn
+
+
+
+
+
+Sinh viên thực hiện:
+
+
+Họ tên: Đậu Đại Tài   MSSV: 2280602783  Lớp: 22DTHD1
+
+
+Ngành: Công Nghệ Thông Tin
+
+
+Chuyên ngành: Mạng Máy Tính
+
+
+
+
+
+Tuần 
+
+
+Ngày
+
+
+Nội dung
+
+
+1
+
+
+20/04/2026-26/04/2026
+
+- Tạo tài khoản trên nền tảng AWS để phục vụ cho quá trình thực tập và học tập Cloud. 
+
+- Làm quen với giao diện AWS Management Console và các dịch vụ cơ bản. 
+
+- Hoàn thành 5 nhiệm vụ trong chương trình “First Cloud AI Journey” (thiết lập môi trường, làm quen dịch vụ, thực hành cơ bản). 
+
+- Xem và ghi chú 5 video trong lộ trình AWS 2026, bao gồm: giới thiệu chương trình, tổng quan AWS, quản lý Console, GenAI trên AWS và tối ưu chi phí. 
+
+- Bước đầu nắm được kiến thức nền tảng về Cloud Computing và định hướng học tập trong chương trình
+
+
+
+
+2
+
+
+27/04/2026-03/05/2026
+
+
+
+
+
+- Tiếp tục học các nội dung trong chương trình “First Cloud AI Journey”. 
+
+
+- Tìm hiểu chi tiết hơn về các dịch vụ cốt lõi của AWS như EC2, S3, IAM. 
+
+
+- Thực hành tạo và cấu hình máy chủ ảo (EC2) cơ bản trên AWS. 
+
+
+- Làm quen với quản lý quyền truy cập thông qua IAM (User, Role, Policy). 
+
+
+- Tiếp tục xem các video trong lộ trình AWS và ghi chú kiến thức liên quan đến Cloud và AI trên AWS. 
+
+
+- Bắt đầu hiểu rõ hơn về cách triển khai và quản lý tài nguyên trên nền tảng Cloud.
+
+
+
+
+
+3
+
+
+04/05/2026-10/05/2026
+
+
+
+
+
+- Tiếp tục học chương trình “First Cloud AI Journey”, chuyển sang Module 02 – AWS Networking &amp; VPC. 
+
+
+-Tìm hiểu kiến trúc mạng trên AWS bao gồm: VPC, Subnet, Route Table, Internet Gateway, NAT Gateway. 
+
+
+- Thực hành tạo và cấu hình Virtual Private Cloud (VPC), thiết lập các thành phần mạng như Subnet, Route Table và Internet Gateway.
+
+
+- Triển khai và cấu hình Security Group và Network ACL để kiểm soát truy cập trong hệ thống. 
+
+
+- Thực hành tạo EC2 trong các Subnet và kiểm tra kết nối mạng giữa các thành phần.  
+
+
+- Hoàn thành các lab liên quan đến xây dựng hệ thống mạng trên AWS và tối ưu cấu hình bảo mật. 
+
+
+- Nâng cao hiểu biết về cách thiết kế và triển khai hệ thống mạng trên nền tảng Cloud AWS.
+
+
+
+
+
+4
+
+
+11/05/2026- 17/05/2026
+
+
+-Tiếp tục củng cố kiến thức đã học trong Module 02 về AWS Networking (VPC). 
+
+
+- Ôn tập và hệ thống lại các thành phần mạng như VPC, Subnet, Route Table, Internet Gateway, NAT Gateway. 
+
+
+- Xem lại các lab đã thực hiện để hiểu rõ hơn về cách triển khai và kết nối giữa các tài nguyên trong hệ thống AWS. 
+
+
+- Tìm hiểu sâu hơn về cơ chế hoạt động của Security Group và Network ACL trong việc kiểm soát truy cập. 
+
+
+- Nghiên cứu thêm tài liệu về các mô hình kết nối mạng trên AWS như VPC Peering, VPN và Hybrid DNS. 
+
+
+- Ghi chú và tổng hợp kiến thức nhằm chuẩn bị cho các nội dung nâng cao ở các tuần tiếp theo.
+
+
+5
+
+
+18/05/2026- 24/05/2026
+
+
+- Tiếp tục học chương trình “First Cloud AI Journey”, tìm hiểu Module 03 trên AWS. 
+
+
+- Nghiên cứu các dịch vụ tính toán trên AWS như EC2, Auto Scaling, EBS, Instance Store và User Data. 
+
+
+- Tìm hiểu cách tạo và quản lý máy chủ EC2, AMI, Key Pair và cơ chế backup dữ liệu trên AWS. 
+
+
+- Thực hành các lab liên quan đến AWS Backup và khôi phục dữ liệu (Restore). 
+
+
+- Tìm hiểu dịch vụ lưu trữ Amazon S3 và thực hành tạo S3 Bucket, quản lý đối tượng lưu trữ. 
+
+
+- Thực hành triển khai Static Website trên S3 kết hợp với Amazon CloudFront để phân phối nội dung. 
+
+
+- Tìm hiểu thêm về Bucket Versioning, Replication Multi-Region và các cơ chế tối ưu lưu trữ trên AWS. 
+
+
+- Củng cố kiến thức về triển khai hệ thống tính toán và lưu trữ trên nền tảng Cloud AWS.
+
+
+6
+
+
+25/05/2026- 31/05/2026
+
+
+- Tiếp tục học chương trình “First Cloud AI Journey”, tìm hiểu Module 04 – Storage Services trên AWS. 
+
+
+- Nghiên cứu chuyên sâu về dịch vụ lưu trữ Amazon S3, Storage Class, Access Point và cơ chế quản lý dữ liệu trên AWS. 
+
+
+- Tìm hiểu cách triển khai Static Website trên S3, cấu hình CORS và kiểm soát quyền truy cập đối tượng lưu trữ. 
+
+
+- Thực hành các lab liên quan đến AWS Backup, tạo Backup Plan và khôi phục dữ liệu (Restore). 
+
+
+- Tìm hiểu dịch vụ AWS Storage Gateway và cơ chế kết nối lưu trữ giữa môi trường On-premises và AWS Cloud. 
+
+
+- Thực hành tạo File Shares, quản lý lưu trữ và triển khai các hệ thống File System trên AWS. 
+
+
+- Tìm hiểu các tính năng nâng cao như Bucket Versioning, Replication Multi-Region, Data Deduplication, Shadow Copies và Storage Quotas. 
+
+
+- Thực hành cấu hình Amazon CloudFront kết hợp với S3 để tối ưu phân phối nội dung và tăng hiệu năng truy cập. 
+
+
+- Nâng cao hiểu biết về quản lý, sao lưu và tối ưu hệ thống lưu trữ trên nền tảng AWS Cloud.
+
+
+
+
+
+7
+
+
+01/06/2026- 07/06/2026
+
+
+- Tiếp tục học chương trình “First Cloud AI Journey”, nghiên cứu chuyên sâu hơn về Module 04 – Storage Services trên AWS. 
+
+
+- Ôn tập và củng cố kiến thức về Amazon S3, Storage Gateway và các dịch vụ lưu trữ trên AWS. 
+
+
+- Tiếp tục thực hành các lab liên quan đến cấu hình S3 Bucket, Static Website Hosting và Amazon CloudFront. 
+
+
+- Tìm hiểu thêm về các cơ chế quản lý và bảo vệ dữ liệu như Bucket Versioning, Replication Multi-Region và Backup/Restore. 
+
+
+- Thực hành quản lý File Shares, Storage Quotas và theo dõi hiệu năng hệ thống lưu trữ trên AWS. 
+
+
+- Nghiên cứu thêm về tối ưu lưu trữ, kiểm soát truy cập dữ liệu và các phương pháp tăng hiệu năng hệ thống Cloud Storage. 
+
+
+- Tổng hợp và ghi chú kiến thức đã học nhằm chuẩn bị cho các module tiếp theo trong chương trình.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8
+
+
+08/06/2026- 14/06/2026
+
+
+- Tiếp tục học Module 05 – Security &amp; Identity Management trên AWS. 
+
+
+- Nghiên cứu mô hình Shared Responsibility Model và các nguyên tắc bảo mật trong môi trường Cloud AWS. 
+
+
+- Tìm hiểu các dịch vụ quản lý danh tính và phân quyền như IAM, IAM Policy, IAM Role, AWS Organizations, AWS Identity Center và Amazon Cognito. 
+
+
+- Nghiên cứu cơ chế mã hóa và bảo vệ dữ liệu với AWS Key Management Service (KMS). 
+
+
+- Tìm hiểu và thực hành cấu hình AWS Security Hub để đánh giá mức độ tuân thủ và bảo mật của tài khoản AWS. 
+
+
+- Thực hành tạo IAM User, Group, Policy và Role; kiểm tra cơ chế phân quyền và chuyển đổi vai trò (Switch Role) trong AWS. 
+
+
+- Thực hành quản lý tài nguyên bằng Tags và Resource Groups, sử dụng CLI để theo dõi và quản lý tài nguyên hiệu quả. 
+
+
+- Tìm hiểu dịch vụ CloudTrail và Amazon Athena để ghi nhận, giám sát và truy vấn nhật ký hoạt động trên AWS. 
+
+
+- Thực hành mã hóa, chia sẻ dữ liệu trên Amazon S3 và củng cố kiến thức về quản trị, bảo mật hệ thống Cloud AWS.
+
+
+
+
+
+9
+
+
+15/06/2026- 21/06/2026
+
+
+- Tiếp tục học chương trình “First Cloud AI Journey”, tìm hiểu Module 06 – Database Services trên AWS. 
+
+
+- Ôn tập các khái niệm cơ sở dữ liệu và nghiên cứu các dịch vụ cơ sở dữ liệu trên AWS như Amazon RDS, Amazon Aurora, Amazon Redshift và ElastiCache. 
+
+
+- Thực hành triển khai cơ sở dữ liệu trên AWS, cấu hình VPC, Security Group, DB Subnet Group và kết nối ứng dụng với Amazon RDS. 
+
+
+- Tìm hiểu các cơ chế sao lưu, khôi phục dữ liệu và quản lý cơ sở dữ liệu trên nền tảng AWS. 
+
+
+- Thực hành các lab liên quan đến di chuyển cơ sở dữ liệu và chuyển đổi schema giữa các hệ quản trị cơ sở dữ liệu khác nhau. 
+
+
+- Tìm hiểu cơ chế giám sát, ghi log và xử lý sự cố trong quá trình triển khai cơ sở dữ liệu. 
+
+
+- Thiết kế sơ đồ kiến trúc tổng thể cho project của nhóm, xác định các thành phần chính và phương án triển khai trên AWS. 
+
+
+- Tổng hợp tài liệu và chuẩn bị cho giai đoạn triển khai project trong các tuần tiếp theo.
+
+
+10
+
+
+22/06/2026- 28/06/2026
+
+
+-Tiếp tục học chương trình “First Cloud AI Journey”, tìm hiểu Module 07 – Data Analytics &amp; Big Data trên AWS. 
+
+
+-Tìm hiểu quy trình thu thập, lưu trữ, xử lý và phân tích dữ liệu trên nền tảng AWS. 
+
+
+-Nghiên cứu các dịch vụ như Amazon DynamoDB, AWS Glue, Amazon Athena, Amazon QuickSight và Amazon Kinesis phục vụ cho phân tích dữ liệu. 
+
+
+-Thực hành các lab về tạo S3 Bucket, xây dựng Glue Crawler, xử lý dữ liệu bằng AWS Glue và DataBrew. 
+
+
+-Thực hành truy vấn dữ liệu bằng Amazon Athena và trực quan hóa dữ liệu với Amazon QuickSight. 
+
+
+-Tìm hiểu cách xây dựng Dashboard, quản lý dữ liệu trên DynamoDB và các mô hình ứng dụng Serverless. 
+
+
+- Áp dụng kiến thức đã học để hoàn thiện thiết kế kiến trúc và lựa chọn các dịch vụ AWS phù hợp cho project của nhóm.
+
+
+
+
+
+11
+
+
+29/06/2026- 07/07/
+
+
+- Tiếp tục hoàn thiện đồ án nhóm trên nền tảng AWS theo kiến trúc hệ thống đã thiết kế. 
+
+
+- Tiếp tục triển khai và cấu hình các dịch vụ AWS như Amazon ECS Fargate, Amazon ECR, Amazon S3, CloudFront và Application Load Balancer (ALB). 
+
+
+- Hoàn thiện quy trình CI/CD bằng GitHub Actions để tự động Build Docker Image và triển khai ứng dụng lên AWS. 
+
+
+- Tích hợp và kiểm tra kết nối giữa Frontend, Backend và các dịch vụ AI thông qua API. 
+
+
+- Tiếp tục cấu hình IAM, Security Group và các thành phần mạng nhằm đảm bảo khả năng truy cập và bảo mật hệ thống. 
+
+
+- Kiểm thử hoạt động của các thành phần trong hệ thống, phát hiện và khắc phục các lỗi phát sinh trong quá trình triển khai. 
+
+
+- Cập nhật tài liệu kỹ thuật và sơ đồ kiến trúc theo tiến độ thực hiện của đồ án.
+
+
+
+
+
+12
+
+
+06/07/2026- 12/07/2026
+
+
+- Tiếp tục hoàn thiện các chức năng còn lại của đồ án và tối ưu hệ thống trên AWS. 
+
+
+- Tích hợp hoàn chỉnh các dịch vụ AI (LiteLLM, YOLOv8, Google Gemini API, Groq API) với Backend của hệ thống. 
+
+
+- Hoàn thiện cấu hình CloudWatch để giám sát Logs và Metrics, đồng thời kiểm tra hiệu năng hoạt động của hệ thống. 
+
+
+- Kiểm thử toàn bộ quy trình từ Frontend, Backend, AI Processing đến lưu trữ dữ liệu trên MongoDB Atlas. 
+
+
+- Rà soát cấu hình bảo mật, tối ưu hiệu năng và xử lý các lỗi còn tồn đọng trước khi nghiệm thu. 
+
+
+- Hoàn thiện tài liệu kỹ thuật, sơ đồ kiến trúc, báo cáo đồ án và chuẩn bị nội dung thuyết trình, nghiệm thu.
+
+
+
+
+
+ 
+
+
+
+
+
+Cán bộ hướng dẫn tại đơn vị TT
+
+
+(Ký và ghi rõ họ tên)
+
+
+TP. HCM, ngày … tháng … năm 20….
+
+
+Giảng viên hướng dẫn tại trường
+
+
+(Ký và ghi rõ họ tên)
+
+
+
+
+
+

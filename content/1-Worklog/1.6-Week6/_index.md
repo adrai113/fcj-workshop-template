@@ -6,50 +6,35 @@ chapter: false
 pre: " <b> 1.6. </b> "
 ---
 
-### Week 6 Objectives:
+### Objectives of Week 6:
 
-- Attend the First Cloud Journey meeting.
-- Continue developing the team project according to the project plan.
-- Improve the project documentation and system architecture.
-- Prepare for the next implementation phase.
-
----
-
-### Tasks Completed This Week:
-
-| Day | Task                                                                                                                                                                              | Start Date | Completion Date | Reference |
-| --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | --------- |
-| Mon | - Continue developing the team project <br> - Complete assigned features                                                                                                          | 25/05/2026 | 25/05/2026      |           |
-| Tue | - Test and fix issues <br> - Update and synchronize the source code with the team                                                                                                 | 26/05/2026 | 26/05/2026      |           |
-| Wed | - Update project documentation <br> - Improve the system architecture                                                                                                             | 27/05/2026 | 27/05/2026      |           |
-| Thu | - Continue project development <br> - Test completed features                                                                                                                     | 28/05/2026 | 28/05/2026      |           |
-| Fri | - Review project progress <br> - Prepare the weekly report                                                                                                                        | 29/05/2026 | 29/05/2026      |           |
-| Sat | - Attend the First Cloud Journey meeting <br> - Learn about new technologies and study experiences <br> - Discuss project-related issues <br> - Explore AWS Cloud Quest and Floci | 30/05/2026 | 30/05/2026      |           |
+- Deeply research Module 04 – Storage Services on AWS.
+- Clearly distinguish storage types (Object, Block, File) and select the right service for specific use-cases.
+- Practice centralized backup solutions and connecting Hybrid Storage environments.
 
 ---
 
-### Results Achieved:
+### Tasks Implemented in the Week:
 
-- Attended the First Cloud Journey meeting and learned about various technologies, study experiences, and solutions to common project issues.
-
-- Learned about additional AWS learning resources:
-  - AWS Cloud Quest.
-  - Floci.
-
-- Continued developing the team project and completed the assigned features.
-
-- Updated the project documentation and improved the system architecture.
+- **Optimize S3 Storage Classes:** Researched and compared costs/performance of S3 Standard, S3 Intelligent-Tiering, S3 Standard-IA, and S3 Glacier. Configured S3 Lifecycle Rules to automatically transition old data to Glacier for long-term storage.
+- **S3 Access Management:** Applied CORS (Cross-Origin Resource Sharing) to allow APIs from other domains to fetch data from S3. Explored S3 Access Points.
+- **AWS Backup:** Configured Backup Plans and Backup Vaults in AWS Backup to automate periodic backups for EC2 and EBS, and practiced the Data Restore process.
+- **Shared Storage (File Systems):** 
+  - Deployed Amazon EFS (Elastic File System) for Linux, mounting EFS to multiple EC2s simultaneously for concurrent data sharing. 
+  - Explored Amazon FSx for Windows (SMB) environments.
+- **Hybrid Environments:** Researched AWS Storage Gateway (File, Volume, Tape Gateway) to extend storage space directly from On-premises to AWS.
 
 ---
 
-### Self-Evaluation:
+### Achievements:
 
-- Successfully completed the planned tasks for the week.
-
-- Improved teamwork and communication skills through project collaboration.
-
-- Learned about useful AWS learning resources that can support project development.
-
-- Will continue improving the project and preparing for the next implementation phase.
+- Gained a comprehensive and detailed view of the entire storage ecosystem on AWS Cloud.
+- Mastered cost-saving storage strategies through Lifecycle Rules and Intelligent-Tiering.
+- Learned how to set up shared storage environments for server clusters via EFS.
 
 ---
+
+### Self-evaluation:
+
+- The volume of theoretical storage knowledge was substantial (especially Storage Gateway); however, S3 and EFS practical labs were highly successful.
+- Ready to apply these storage solutions to the final project.

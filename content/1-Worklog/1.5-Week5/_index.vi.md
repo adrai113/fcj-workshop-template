@@ -8,40 +8,34 @@ pre: " <b> 1.5. </b> "
 
 ### Mục tiêu tuần 5:
 
-- Phân chia nhiệm vụ và xây dựng kiến trúc tổng quan cho project nhóm.
-- Tìm hiểu tối ưu hiệu năng với Amazon CloudFront.
-- Tiếp tục triển khai và hoàn thiện project.
+- Bắt đầu Module 03 trong “First Cloud AI Journey”, trọng tâm là các dịch vụ Tính toán (Compute) nâng cao và mở rộng sang Lưu trữ (Storage).
+- Hiểu rõ cơ chế tự động mở rộng tài nguyên tính toán để đáp ứng tải linh hoạt (Elasticity).
+- Tận dụng Amazon S3 và CDN để phân phối nội dung tĩnh với tốc độ cao.
 
 ---
 
-### Các công việc cần triển khai trong tuần này:
+### Các công việc đã triển khai trong tuần:
 
-| Thứ | Công việc                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                          |
-| --- | ------------------------------------------------------------------------------------------- | ------------ | --------------- | --------------------------------------- |
-| 2   | - Họp nhóm <br> - Phân chia nhiệm vụ <br> - Xây dựng kiến trúc tổng quan cho project        | 18/05/2026   | 18/05/2026      |                                         |
-| 4   | - Tìm hiểu tối ưu hiệu năng với Amazon CloudFront <br> - Áp dụng vào kiến trúc project      | 20/05/2026   | 20/05/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 5   | - Tiếp tục phát triển các chức năng của project <br> - Kiểm tra và xử lý lỗi phát sinh      | 21/05/2026   | 21/05/2026      |                                         |
-| 6   | - Tổng hợp kết quả thực hiện <br> - Hoàn thiện tài liệu và kế hoạch cho giai đoạn tiếp theo | 22/05/2026   | 22/05/2026      |                                         |
+- **Compute & Scaling (EC2 nâng cao):** 
+  - Tìm hiểu cấu hình EC2 User Data để tự động hóa việc cài đặt phần mềm (như Apache/Nginx) ngay khi khởi tạo máy chủ.
+  - Cấu hình Launch Templates và thực hành triển khai Auto Scaling Group (ASG) giúp hệ thống tự động tăng/giảm số lượng EC2 dựa trên CPU Utilization.
+- **Lưu trữ khối (EBS & Instance Store):** Khảo sát các loại Volume của EBS (gp2, gp3, io1, io2), hiệu năng IOPS và thực hành tạo EBS Snapshot để sao lưu dữ liệu máy chủ.
+- **Dịch vụ lưu trữ Amazon S3 (Nâng cao):** 
+  - Triển khai hosting một trang web tĩnh (Static Website) hoàn chỉnh trên Amazon S3 (bao gồm trang index và error).
+  - Cấu hình Bucket Policy để cấp quyền Public Read cho website.
+  - Tích hợp Amazon CloudFront (CDN) phía trước S3 để phân phối nội dung web tới các Edge Location trên toàn cầu, kết hợp chứng chỉ SSL/TLS miễn phí qua ACM.
+- **Quản lý phiên bản S3:** Tìm hiểu và kích hoạt S3 Versioning để chống việc vô tình xóa hoặc ghi đè file quan trọng.
 
 ---
 
-### Kết quả đạt được tuần 5:
+### Kết quả đạt được:
 
-- Hoàn thành phân chia nhiệm vụ và xây dựng kiến trúc tổng quan cho project nhóm.
-
-- Tìm hiểu Amazon CloudFront và biết thêm cách tối ưu hiệu năng cho ứng dụng.
-
-- Tiếp tục phát triển project và xử lý một số lỗi phát sinh trong quá trình triển khai.
-
-- Tổng hợp kết quả thực hiện và chuẩn bị cho giai đoạn phát triển tiếp theo.
+- Nắm vững nghệ thuật "Scale-out" trong Cloud thông qua hệ thống Auto Scaling, đảm bảo hệ thống không bị sập khi quá tải và tiết kiệm tiền khi rảnh rỗi.
+- Vận hành thành công một Static Website chuẩn doanh nghiệp (Bảo mật SSL, tốc độ tải trang siêu nhanh nhờ CDN, chi phí lưu trữ gần như bằng 0).
 
 ---
 
 ### Tự đánh giá:
 
-- Hoàn thành các công việc theo kế hoạch của tuần.
-- Biết thêm cách xây dựng kiến trúc và tối ưu hiệu năng trên AWS.
-- Phối hợp tốt với các thành viên trong nhóm để triển khai project.
-- Tiếp tục hoàn thiện các chức năng và tài liệu của project trong các tuần tiếp theo.
-
----
+- Kỹ năng tự động hóa bằng User Data kết hợp Auto Scaling đã giúp tôi nhận ra sức mạnh thực sự của điện toán đám mây so với máy chủ vật lý truyền thống.
+- Tiến độ học tập và thực hành đạt mức xuất sắc.

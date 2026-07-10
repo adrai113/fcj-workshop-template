@@ -6,47 +6,35 @@ chapter: false
 pre: " <b> 1.11. </b> "
 ---
 
-### Week 11 Objectives:
+### Objectives of Week 11:
 
-- Continue improving the project according to the development plan.
-- Test the system and resolve the remaining issues.
-- Complete the final project features.
-- Prepare the application for deployment.
-
----
-
-### Tasks Completed This Week:
-
-| Day | Task                                                                                | Start Date | Completion Date | Reference |
-| --- | ----------------------------------------------------------------------------------- | ---------- | --------------- | --------- |
-| Mon | - Discuss project progress with team members remotely <br> - Update project status  | 29/06/2026 | 29/06/2026      |           |
-| Tue | - Review project features <br> - Perform full system testing                        | 30/06/2026 | 30/06/2026      |           |
-| Wed | - Resolve the remaining issues <br> - Re-test completed features                    | 01/07/2026 | 01/07/2026      |           |
-| Thu | - Complete the final project features <br> - Prepare the application for deployment | 02/07/2026 | 02/07/2026      |           |
-| Fri | - Deploy the application <br> - Verify the system after deployment                  | 03/07/2026 | 03/07/2026      |           |
+- Deploy the actual group project onto the AWS environment.
+- Apply DevOps processes, building an automated CI/CD pipeline from Code to Deploy.
+- Ensure stable system operation, smooth Frontend-Backend calls, and AI service integration.
 
 ---
 
-### Results Achieved:
+### Tasks Implemented in the Week:
 
-- Continued project development while coordinating remotely with team members.
+- **Containerization & Infrastructure (ECS/ECR):** 
+  - Packaged Backend and Frontend applications into Docker Images and Pushed to Amazon ECR. 
+  - Configured Amazon ECS combined with Fargate (Serverless Compute for Containers) to run applications without managing physical EC2s. 
+  - Placed the entire system behind an Application Load Balancer (ALB) to route traffic, combining S3 and CloudFront to host Static Assets.
+- **CI/CD Automation:** Built a GitHub Actions Pipeline. Every merge to the main branch automatically Builds the Docker Image, Pushes to ECR, and triggers ECS Fargate to launch the new version (Rolling Update).
+- **Feature Integration:** Programmed RESTful APIs connecting Frontend and Backend, and began experimental integration of external AI services.
+- **Network Security:** Fine-tuned IAM Task Execution Roles for Fargate, re-checked all Security Groups between ALB, Fargate, and Database for tight network flow.
+- **Integration Testing:** Fired test requests into the system, checked logs, detected and debugged errors arising from environment variable misconfigurations.
 
-- Reviewed all project features, performed full system testing, and resolved the remaining issues.
+---
 
-- Completed the final project features.
+### Achievements:
 
-- Successfully deployed the application and verified that the system operated correctly after deployment.
+- The project system took shape, capable of highly professional Zero-downtime deployments via CI/CD Pipeline.
+- Networking and Security structures were accurately applied to the real-world project.
 
 ---
 
-### Self-Evaluation:
+### Self-evaluation:
 
-- Successfully completed all planned tasks for the week.
-
-- Gained more experience in application deployment and post-deployment verification.
-
-- Improved remote collaboration and troubleshooting skills.
-
-- Ready to finalize the internship report and complete the internship program.
-
----
+- Encountered many challenges configuring network and Load Balancers for ECS Fargate (blocked ports, health check failures), but successfully resolved all by researching Logs.
+- DevOps and Cloud Integration skills were elevated to a new level.

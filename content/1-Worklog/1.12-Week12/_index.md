@@ -6,46 +6,38 @@ chapter: false
 pre: " <b> 1.12. </b> "
 ---
 
-### Week 12 Objectives:
+### Objectives of Week 12:
 
-- Complete the internship report and workshop documentation.
-- Complete the First Cloud Journey (FCAJ) report template.
-- Summarize the project outcomes and finalize all internship deliverables.
-
----
-
-### Tasks Completed This Week:
-
-| Day | Task                                                                                                                    | Start Date | Completion Date | Reference |
-| --- | ----------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | --------- |
-| Mon | - Complete the internship report <br> - Summarize the project outcomes                                                  | 06/07/2026 | 06/07/2026      |           |
-| Tue | - Finalize the workshop documentation <br> - Review the content and screenshots                                         | 07/07/2026 | 07/07/2026      |           |
-| Wed | - Complete the First Cloud Journey (FCAJ) report template <br> - Review and update the report based on the requirements | 08/07/2026 | 08/07/2026      |           |
-| Thu | - Review the internship report, workshop documentation, and internship deliverables <br> - Revise the remaining content | 09/07/2026 | 09/07/2026      |           |
-| Fri | - Finalize and submit the internship report <br> - Complete all internship deliverables                                 | 10/07/2026 | 10/07/2026      |           |
+- Complete 100% of software features, optimize the overall system on AWS.
+- Smoothly integrate AI services (GenAI, LLMs).
+- Draft technical acceptance documents, reports, and prepare final presentation slides.
 
 ---
 
-### Results Achieved:
+### Tasks Implemented in the Week:
 
-- Completed the internship report and summarized the overall outcomes of the internship program.
+- **AI Integration & Advanced Features:** 
+  - Fully integrated 3rd-party AI APIs (LiteLLM, YOLOv8 for image processing, Google Gemini API, Groq API) with the Backend. 
+  - Finalized the user data storage module on MongoDB Atlas (Cloud Database).
+- **Observability & Optimization:** 
+  - Finalized Amazon CloudWatch configuration to centralize Logs from ECS Containers. 
+  - Set up Dashboards monitoring Metrics (Fargate CPU, Memory) and created CloudWatch Alarms for overload warnings.
+- **End-to-End Testing:** Executed comprehensive test scenarios from the Frontend interface via CDN, routing to Backend via ALB, AI logic processing, and recording to Database. Optimized page load performance and thoroughly fixed UI/UX bugs.
+- **Defense Prep:** 
+  - Reviewed security systems, removing redundant access ports. 
+  - Packaged all technical documentation, updating the Architecture Diagram for the final time. 
+  - Drafted the internship report (Word/PDF) and presentation slides for the defense.
 
-- Finalized the workshop documentation and updated it according to the required format.
+---
 
-- Completed the First Cloud Journey (FCAJ) report template.
+### Achievements:
 
-- Finalized all internship deliverables and prepared the required documents for submission.
+- The group project operates smoothly and stably on actual Cloud infrastructure with optimal architecture and impressive load capacity. AI integration runs seamlessly, bringing practical value.
+- The document and report portfolio is professionally designed, complete, and ready for defense before the judging panel/supervisors.
 
 ---
 
-### Self-Evaluation:
+### Self-evaluation:
 
-- Successfully completed all planned tasks for the internship program.
-
-- Completed the internship report and workshop documentation according to the program requirements.
-
-- Gained valuable experience in project implementation, technical documentation, and reporting on AWS-based solutions.
-
-- Successfully completed the internship program with a finished project, complete documentation, and practical knowledge gained throughout the journey.
-
----
+- Reached the final stage of the internship, excellently completing a massive workload of theory and practice.
+- Equipped with an invaluable skillset covering AWS Cloud, DevOps, and enterprise AI application. Confidently stepping into the future career path.

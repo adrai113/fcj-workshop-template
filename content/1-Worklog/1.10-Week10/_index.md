@@ -6,47 +6,38 @@ chapter: false
 pre: " <b> 1.10. </b> "
 ---
 
-### Week 10 Objectives:
+### Objectives of Week 10:
 
-- Complete all remaining project features.
-- Perform final system testing and evaluate system stability.
-- Optimize resource usage and review system security.
-- Finalize the project documentation and presentation materials.
+- Explore Module 07 – Data Analytics & Big Data, approaching massive data processing concepts on the cloud.
+- Finalize the environment and source code framework for the group project.
 
 ---
 
-### Tasks Completed This Week:
+### Tasks Implemented in the Week:
 
-| Day | Task                                                                               | Start Date | Completion Date | Reference |
-| --- | ---------------------------------------------------------------------------------- | ---------- | --------------- | --------- |
-| Mon | - Complete the remaining project features                                          | 22/06/2026 | 22/06/2026      |           |
-| Tue | - Perform final system testing <br> - Evaluate system stability                    | 23/06/2026 | 23/06/2026      |           |
-| Wed | - Optimize resource usage <br> - Review system security and configurations         | 24/06/2026 | 24/06/2026      |           |
-| Thu | - Finalize the project documentation <br> - Update the system architecture diagram | 25/06/2026 | 25/06/2026      |           |
-| Fri | - Prepare the presentation materials <br> - Review overall project progress        | 26/06/2026 | 26/06/2026      |           |
-
----
-
-### Results Achieved:
-
-- Completed the remaining project features and performed comprehensive system testing.
-
-- Optimized resource usage, reviewed system security, and verified the system's operational readiness.
-
-- Finalized the project documentation, updated the system architecture diagram, and completed the presentation materials.
-
-- Prepared all required materials for the final presentation and project evaluation.
+- **Serverless Data & NoSQL Architecture:** Explored Amazon DynamoDB. Learned about Partition Keys, Sort Keys, and millisecond retrieval performance.
+- **ETL (Extract, Transform, Load) Process:** 
+  - Learned the data processing pipeline: Ingesting Raw Data into S3 Data Lakes. 
+  - Used AWS Glue Crawlers to automatically analyze data schemas and create Data Catalogs. 
+  - Used AWS Glue DataBrew for visual, no-code data cleaning and preparation.
+- **Analysis & Visualization:** 
+  - Directly queried large CSV/JSON files on S3 using Amazon Athena (Serverless SQL Query). 
+  - Connected Amazon QuickSight to draw charts and build vivid BI (Business Intelligence) Dashboards.
+- **Group Project Execution:** 
+  - Applied knowledge by selecting DynamoDB for tasks requiring fast read/write speeds in the project. 
+  - Configured environments and set up Github Repositories for team members.
 
 ---
 
-### Self-Evaluation:
+### Achievements:
 
-- Successfully completed all planned tasks for the week.
-
-- Gained more experience in system testing, optimization, and security review.
-
-- Improved technical documentation and presentation preparation skills.
-
-- Ready for the final project presentation and evaluation.
+- Fully understood a Data Pipeline from raw storage to visual BI reporting.
+- Expanded Big Data processing skills relying entirely on Serverless services (no server management needed).
+- Project framework formed, and team environment is ready.
 
 ---
+
+### Self-evaluation:
+
+- Although Data Analytics is a new domain, AWS's complete service ecosystem made building Pipelines accessible.
+- Project code preparation is progressing on schedule.

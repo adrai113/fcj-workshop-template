@@ -8,71 +8,39 @@ pre: " <b> 1.1. </b> "
 
 ### Mục tiêu tuần 1:
 
-- Làm quen với môi trường thực tập và các thành viên trong chương trình First Cloud Journey.
-- Tìm hiểu tổng quan về Điện toán đám mây và nền tảng AWS.
-- Biết cách tạo tài khoản AWS và các bước cấu hình ban đầu.
-- Biết cách quản lý chi phí để tránh phát sinh ngoài ý muốn.
-- Tìm hiểu cơ chế phân quyền và quản lý truy cập với AWS IAM.
+- Làm quen với văn hóa, quy trình làm việc tại đơn vị thực tập và lộ trình chương trình "First Cloud AI Journey".
+- Thiết lập môi trường học tập, tạo tài khoản AWS cá nhân một cách an toàn và bảo mật.
+- Nắm bắt giao diện quản trị AWS Management Console và hiểu tổng quan về cơ sở hạ tầng toàn cầu của AWS (Regions, Availability Zones).
+- Xác định lộ trình học tập chi tiết và tiếp cận các kiến thức nền tảng về Cloud Computing, tối ưu chi phí.
 
 ---
 
-### Các công việc cần triển khai trong tuần này:
+### Các công việc đã triển khai trong tuần:
 
-| Thứ | Công việc                                                                                                                       | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                          |
-| --- | ------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | --------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và tìm hiểu nội quy thực tập <br> - Tìm hiểu quy trình làm việc và yêu cầu báo cáo | 20/04/2026   | 20/04/2026      |                                         |
-| 3   | - Tạo mới tài khoản AWS Free Tier <br> - Khám phá AWS Management Console <br> - Làm quen giao diện các dịch vụ chính            | 21/04/2026   | 21/04/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 4   | - Thiết lập AWS Budgets <br> - Cấu hình cảnh báo chi phí qua email <br> - Tìm hiểu các yếu tố ảnh hưởng đến chi phí             | 22/04/2026   | 22/04/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 5   | - Tìm hiểu AWS Support <br> - Các gói hỗ trợ (Basic, Developer, Business, Enterprise) <br> - Thực hành tạo support case mẫu     | 23/04/2026   | 23/04/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 6   | - Tìm hiểu IAM: User, Group, Role, Policy <br> - Thực hành tạo User và phân quyền <br> - Tìm hiểu nguyên tắc Least Privilege    | 24/04/2026   | 24/04/2026      | https://cloudjourney.awsstudygroup.com/ |
+- **Thiết lập tài khoản AWS:** Đăng ký thành công tài khoản AWS Free Tier. Kích hoạt xác thực đa yếu tố (MFA) cho tài khoản Root để tăng cường bảo mật.
+- **Quản lý chi phí (Billing):** Thiết lập AWS Budgets để tạo các cảnh báo chi phí tự động qua email, đảm bảo việc thực hành không phát sinh chi phí ngoài ý muốn.
+- **Làm quen với AWS Console:** Khám phá giao diện quản trị, thực hành điều hướng giữa các dịch vụ khác nhau và tìm hiểu về các Global Services so với Regional Services.
+- **Thực hành "First Cloud AI Journey":** Hoàn thành xuất sắc 5 nhiệm vụ khởi đầu, bao gồm việc chuẩn bị môi trường, làm quen với khái niệm IaaS, PaaS, SaaS trên AWS.
+- **Học tập qua video lộ trình:** Theo dõi và ghi chép chi tiết 5 video bài giảng trọng tâm:
+  1. Giới thiệu tổng quan chương trình thực tập.
+  2. Kiến trúc toàn cầu của AWS.
+  3. Hướng dẫn sử dụng AWS Management Console hiệu quả.
+  4. Xu hướng GenAI (Generative AI) trên AWS và các ứng dụng thực tiễn.
+  5. Các chiến lược tối ưu chi phí (Cost optimization) cho doanh nghiệp.
 
 ---
 
 ### Kết quả đạt được tuần 1:
 
-- Biết được khái niệm cơ bản về điện toán đám mây và vai trò của AWS trong việc cung cấp hạ tầng công nghệ thông tin.
-
-- Biết được cấu trúc hạ tầng toàn cầu của AWS, bao gồm:
-  - Region
-  - Availability Zone
-  - Edge Location
-
-- Tạo thành công tài khoản AWS Free Tier và hoàn tất các bước cấu hình ban đầu:
-  - Xác thực tài khoản
-  - Cấu hình thông tin thanh toán
-  - Truy cập AWS Management Console
-
-- Làm quen với AWS Management Console:
-  - Biết cách tìm kiếm dịch vụ
-  - Biết cách điều hướng giữa các service
-  - Biết cách quản lý tài nguyên cơ bản
-
-- Thiết lập quản lý chi phí với AWS Budgets:
-  - Tạo ngân sách theo tháng
-  - Cấu hình cảnh báo khi chi phí vượt ngưỡng
-  - Biết được vai trò của việc kiểm soát chi phí khi sử dụng dịch vụ AWS
-
-- Tìm hiểu về AWS Support:
-  - Biết được các gói hỗ trợ
-  - Biết quy trình tạo support case
-  - Biết khi nào cần sử dụng dịch vụ hỗ trợ
-
-- Tìm hiểu AWS IAM:
-  - Tạo IAM User
-  - Gán quyền thông qua Policy
-  - Quản lý User theo Group
-  - Biết được vai trò của IAM Role trong hệ thống
-
-- Biết thêm về vai trò của bảo mật và phân quyền khi sử dụng các dịch vụ AWS.
+- Sở hữu một tài khoản AWS an toàn, được bảo mật tốt và sẵn sàng cho các bài Lab chuyên sâu.
+- Hiểu rõ sự khác biệt giữa các mô hình dịch vụ đám mây và cơ sở hạ tầng mạng lưới toàn cầu của AWS.
+- Nắm bắt được tư duy tối ưu chi phí ngay từ những bước đầu tiên làm việc với Cloud.
+- Xác định rõ ràng định hướng phát triển bản thân và mục tiêu cốt lõi trong suốt kỳ thực tập.
 
 ---
 
 ### Tự đánh giá:
 
-- Hoàn thành đầy đủ các nội dung cơ bản trong tuần đầu tiên về tài khoản, quản lý chi phí và phân quyền.
-- Làm quen với môi trường AWS và giao diện AWS Management Console.
-- Biết cách thực hiện các thao tác cơ bản trên AWS Console.
-- Biết được tầm quan trọng của việc quản lý chi phí và phân quyền khi sử dụng dịch vụ AWS.
-- Tiếp tục tìm hiểu và thực hành các dịch vụ cốt lõi như EC2, S3 và VPC trong các tuần tiếp theo.
-
----
+- Đã bắt nhịp rất tốt với môi trường thực tập chuyên nghiệp.
+- Hoàn thành 100% các chỉ tiêu và nhiệm vụ đặt ra cho tuần đầu tiên.
+- Khả năng tự học và tra cứu tài liệu AWS Documentations được cải thiện đáng kể. Sẵn sàng cho việc tìm hiểu sâu các dịch vụ ở tuần kế tiếp.

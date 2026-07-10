@@ -8,17 +8,17 @@ chapter: false
 # Internship Report
 
 ### Student Information:
-&emsp; **Full Name:** Truong Gia Huy
+| &emsp; **Full Name:** Đậu Đại Tài
 
-&emsp; **Phone Number:** 0774477782
+| &emsp; **Phone Number:** 0387472950
 
-&emsp; **Email:** huy12904@gmail.com
+| &emsp; **Email:** toilatai2004@gmail.com
 
 &emsp; **University:** HCMC University of Technology - HUTECH
 
 &emsp; **Major:** Information Technology
 
-&emsp; **Class:** 22DTHG7
+| &emsp; **Class:** 22DTHD1
 
 &emsp; **Internship Company:** Amazon Web Services Vietnam Co., Ltd.
 

@@ -8,46 +8,33 @@ pre: " <b> 1.4. </b> "
 
 ### Mục tiêu tuần 4:
 
-- Tìm hiểu các dịch vụ nâng cao trên AWS.
-- Biết thêm về kiến trúc hệ thống cloud và khả năng mở rộng ứng dụng.
-- Tìm hiểu các giải pháp bảo mật, giám sát và dịch chuyển hệ thống lên AWS.
-- Chuẩn bị kiến thức cho giai đoạn triển khai project.
+- Củng cố và đào sâu các kiến thức cốt lõi đã học trong Module 02 (AWS Networking & VPC).
+- Nghiên cứu mở rộng sang các kiến trúc kết nối mạng nâng cao và lai (Hybrid Networking).
+- Hoàn thiện hệ thống tài liệu, sơ đồ kiến trúc cá nhân để chuẩn bị cho giai đoạn phát triển dự án.
 
 ---
 
-### Các công việc cần triển khai trong tuần này:
+### Các công việc đã triển khai trong tuần:
 
-| Thứ | Công việc                                                                                                      | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                          |
-| --- | -------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | --------------------------------------- |
-| 2   | - Tìm hiểu Amazon CloudFront <br> - Workshop về mạng trên AWS <br> - Mô hình ứng dụng web có tính sẵn sàng cao | 11/05/2026   | 11/05/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 3   | - Tìm hiểu VM Import/Export <br> - AWS Database Migration Service (DMS) <br> - Schema Conversion Tool (SCT)    | 12/05/2026   | 12/05/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 4   | - Tìm hiểu AWS Elastic Disaster Recovery <br> - Các giải pháp dịch chuyển và phục hồi hệ thống                 | 13/05/2026   | 13/05/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 5   | - Tìm hiểu kiến trúc hệ thống cloud <br> - Kết hợp các dịch vụ AWS trong ứng dụng thực tế                      | 14/05/2026   | 14/05/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 6   | - Tìm hiểu IAM Role <br> - Giám sát tài nguyên với Amazon CloudWatch <br> - Tổng hợp kiến thức tuần            | 15/05/2026   | 15/05/2026      | https://cloudjourney.awsstudygroup.com/ |
+- **Hệ thống hóa kiến thức Networking:** Ôn tập lại quy trình cấp phát CIDR, cách hoạt động của DHCP trong VPC, và cách tối ưu hóa chi phí khi sử dụng NAT Gateway.
+- **Phân tích Lab & Xử lý sự cố:** Xem lại các bài lab cũ, cố tình tạo ra các lỗi cấu hình mạng (sai Route, xóa IGW) và tiến hành fix lỗi để rèn luyện kỹ năng Troubleshooting thực tế.
+- **Mạng nâng cao (Advanced Networking):** 
+  - Tìm hiểu cơ chế VPC Peering để kết nối 2 VPC khác nhau (cùng Region hoặc khác Region).
+  - Nghiên cứu lý thuyết về AWS Site-to-Site VPN và AWS Direct Connect dùng trong môi trường Hybrid Cloud.
+  - Tìm hiểu dịch vụ AWS Transit Gateway giúp quản lý hàng trăm kết nối VPC một cách tập trung.
+  - Khám phá tính năng VPC Flow Logs để theo dõi, giám sát lưu lượng mạng và phát hiện các nỗ lực truy cập bất thường.
+- **Tổng hợp tài liệu:** Ghi chép chi tiết, vẽ lại các sơ đồ luồng dữ liệu (Traffic Flow Diagrams) làm tài liệu tham khảo.
 
 ---
 
-### Kết quả đạt được tuần 4:
+### Kết quả đạt được:
 
-- Tìm hiểu Amazon CloudFront, workshop mạng trên AWS và mô hình ứng dụng web có tính sẵn sàng cao.
-
-- Biết thêm về các giải pháp dịch chuyển hệ thống lên AWS:
-  - VM Import/Export
-  - AWS Database Migration Service (DMS)
-  - Schema Conversion Tool (SCT)
-  - AWS Elastic Disaster Recovery
-
-- Biết thêm về kiến trúc hệ thống cloud và cách kết hợp các dịch vụ AWS trong ứng dụng thực tế.
-
-- Tìm hiểu bảo mật với IAM Role và giám sát tài nguyên bằng Amazon CloudWatch.
+- Xây dựng được nền tảng kiến thức Networking cực kỳ vững chắc, không chỉ ở mức cơ bản mà còn mở rộng ra các kiến trúc Enterprise.
+- Biết cách sử dụng VPC Flow Logs để phân tích lưu lượng, một kỹ năng cực kỳ quan trọng cho bảo mật.
 
 ---
 
 ### Tự đánh giá:
 
-- Hoàn thành các nội dung về kiến trúc cloud, bảo mật và dịch chuyển hệ thống trên AWS.
-- Biết thêm vai trò của CloudFront, CloudWatch và các dịch vụ Migration.
-- Có thêm kiến thức để chuẩn bị triển khai project nhóm.
-- Tiếp tục tìm hiểu và thực hành các dịch vụ AWS trong giai đoạn phát triển project.
-
----
+- Việc dành riêng một tuần để ôn tập và đào sâu mạng (Networking) là hoàn toàn xứng đáng. 
+- Đã đủ tự tin thiết kế và tư vấn các cấu trúc VPC phức tạp, đáp ứng tiêu chuẩn cô lập và bảo mật cao.

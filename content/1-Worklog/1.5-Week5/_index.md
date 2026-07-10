@@ -6,45 +6,36 @@ chapter: false
 pre: " <b> 1.5. </b> "
 ---
 
-### Week 5 Objectives:
+### Objectives of Week 5:
 
-- Assign tasks and design the overall architecture for the team project.
-- Learn how to optimize application performance using Amazon CloudFront.
-- Continue developing and improving the project.
-
----
-
-### Tasks Completed This Week:
-
-| Day | Task                                                                                                                   | Start Date | Completion Date | Reference                               |
-| --- | ---------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | --------------------------------------- |
-| Mon | - Team meeting <br> - Assign project tasks <br> - Design the overall project architecture                              | 18/05/2026 | 18/05/2026      |                                         |
-| Wed | - Learn performance optimization with Amazon CloudFront <br> - Apply optimization concepts to the project architecture | 20/05/2026 | 20/05/2026      | https://cloudjourney.awsstudygroup.com/ |
-| Thu | - Continue developing project features <br> - Test and fix issues during development                                   | 21/05/2026 | 21/05/2026      |                                         |
-| Fri | - Summarize implementation results <br> - Update project documentation and prepare the next development plan           | 22/05/2026 | 22/05/2026      |                                         |
+- Begin Module 03 in the "First Cloud AI Journey", focusing on advanced Compute services and expanding to Storage.
+- Understand automatic compute resource scaling to flexibly meet load demands (Elasticity).
+- Leverage Amazon S3 and CDN for high-speed static content delivery.
 
 ---
 
-### Results Achieved:
+### Tasks Implemented in the Week:
 
-- Completed task assignment and designed the overall architecture for the team project.
+- **Compute & Scaling (Advanced EC2):** 
+  - Learned EC2 User Data configuration to automate software installation (like Apache/Nginx) upon server initialization. 
+  - Configured Launch Templates and practiced deploying Auto Scaling Groups (ASG) to automatically scale EC2 instances based on CPU Utilization.
+- **Block Storage (EBS & Instance Store):** Surveyed EBS Volume types (gp2, gp3, io1, io2), IOPS performance, and practiced creating EBS Snapshots for server data backup.
+- **Amazon S3 Storage (Advanced):** 
+  - Deployed a complete Static Website hosting on Amazon S3 (including index and error pages). 
+  - Configured Bucket Policies to grant Public Read access for the website. 
+  - Integrated Amazon CloudFront (CDN) in front of S3 to deliver web content to Global Edge Locations, combining free SSL/TLS certificates via ACM.
+- **S3 Versioning:** Explored and enabled S3 Versioning to prevent accidental deletion or overwriting of critical files.
 
-- Learned about Amazon CloudFront and gained a better understanding of application performance optimization.
+---
 
-- Continued developing the project and resolved several issues encountered during implementation.
+### Achievements:
 
-- Summarized the development progress and prepared for the next stage of the project.
+- Mastered the art of "Scale-out" in the Cloud through Auto Scaling, ensuring the system doesn't crash under overload and saves money when idle.
+- Successfully operated an enterprise-standard Static Website (SSL secured, lightning-fast load times via CDN, near-zero storage cost).
 
 ---
 
-### Self-Evaluation:
+### Self-evaluation:
 
-- Completed all planned tasks for the week.
-
-- Gained more knowledge about designing system architecture and optimizing application performance on AWS.
-
-- Collaborated effectively with team members throughout the project development process.
-
-- Will continue improving project features and documentation in the upcoming weeks.
-
----
+- Automation skills using User Data combined with Auto Scaling helped me realize the true power of cloud computing over traditional physical servers.
+- Learning and practice progress achieved an excellent level.

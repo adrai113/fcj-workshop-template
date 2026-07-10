@@ -6,77 +6,41 @@ chapter: false
 pre: " <b> 1.1. </b> "
 ---
 
-### Objectives
+### Objectives of Week 1:
 
-- Get familiar with the internship environment and members of the First Cloud Journey (FCAJ) program.
-- Learn the fundamentals of Cloud Computing and the AWS platform.
-- Learn how to create an AWS Free Tier account and complete the initial setup.
-- Learn basic cost management to avoid unexpected charges.
-- Learn the basics of access control and permission management with AWS IAM.
-
----
-
-### Weekly Tasks
-
-| Day       | Tasks                                                                                                                                                     | Start Date | Completion Date | Reference                               |
-| --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | --------------------------------------- |
-| Monday    | - Meet FCAJ members <br> - Read the internship regulations <br> - Learn the internship workflow and reporting requirements                                | 20/04/2026 | 20/04/2026      |                                         |
-| Tuesday   | - Create an AWS Free Tier account <br> - Explore AWS Management Console <br> - Get familiar with the AWS service interface                                | 21/04/2026 | 21/04/2026      | https://cloudjourney.awsstudygroup.com/ |
-| Wednesday | - Configure AWS Budgets <br> - Set up email cost alerts <br> - Learn factors affecting AWS costs                                                          | 22/04/2026 | 22/04/2026      | https://cloudjourney.awsstudygroup.com/ |
-| Thursday  | - Learn about AWS Support <br> - Explore support plans (Basic, Developer, Business, Enterprise) <br> - Practice creating a support case                   | 23/04/2026 | 23/04/2026      | https://cloudjourney.awsstudygroup.com/ |
-| Friday    | - Learn AWS IAM: User, Group, Role, and Policy <br> - Practice creating IAM Users and assigning permissions <br> - Learn the Principle of Least Privilege | 24/04/2026 | 24/04/2026      | https://cloudjourney.awsstudygroup.com/ |
+- Familiarize with the culture, workflow at the internship unit, and the "First Cloud AI Journey" roadmap.
+- Set up a learning environment, creating a personal AWS account securely and safely.
+- Grasp the AWS Management Console and understand the global infrastructure of AWS (Regions, Availability Zones).
+- Define a detailed learning path and approach foundational knowledge of Cloud Computing and cost optimization.
 
 ---
 
-### Achievements
+### Tasks Implemented in the Week:
 
-- Learned the basic concepts of Cloud Computing and the role of AWS in providing cloud infrastructure.
-
-- Learned the AWS Global Infrastructure, including:
-  - Region
-  - Availability Zone
-  - Edge Location
-
-- Successfully created an AWS Free Tier account and completed the initial setup:
-  - Account verification
-  - Billing configuration
-  - Access to AWS Management Console
-
-- Became familiar with AWS Management Console:
-  - Search for AWS services
-  - Navigate between AWS services
-  - Perform basic resource management
-
-- Practiced AWS Budgets:
-  - Created a monthly budget
-  - Configured budget alert notifications
-  - Learned the importance of cost management when using AWS services
-
-- Learned about AWS Support:
-  - Explored different support plans
-  - Learned how to create a support case
-  - Understood when to request AWS support
-
-- Learned AWS Identity and Access Management (IAM):
-  - Created IAM Users
-  - Assigned permissions using IAM Policies
-  - Managed users with IAM Groups
-  - Learned the purpose of IAM Roles
-
-- Gained a better understanding of security and permission management in AWS.
+- **AWS Account Setup:** Successfully registered an AWS Free Tier account. Activated Multi-Factor Authentication (MFA) for the Root account to enhance security.
+- **Billing Management:** Set up AWS Budgets to create automated email cost alerts, ensuring practice without unexpected charges.
+- **Familiarize with AWS Console:** Explored the management interface, navigated between various services, and learned about Global vs. Regional Services.
+- **First Cloud AI Journey Practice:** Successfully completed the 5 starting tasks, including environment preparation and understanding IaaS, PaaS, SaaS on AWS.
+- **Video Roadmap Learning:** Watched and took detailed notes on 5 core video lectures:
+  1. Internship program overview.
+  2. AWS global architecture.
+  3. Effective use of the AWS Management Console.
+  4. GenAI (Generative AI) trends on AWS and practical applications.
+  5. Cost optimization strategies for enterprises.
 
 ---
 
-### Self-evaluation
+### Achievements of Week 1:
 
-- Successfully completed all fundamental topics in the first week, including AWS account setup, cost management, and IAM.
-
-- Became familiar with the AWS environment and AWS Management Console.
-
-- Learned how to perform basic operations on AWS.
-
-- Understood the importance of cost control and access management when using AWS services.
-
-- Will continue learning and practicing core AWS services such as Amazon EC2, Amazon S3, and Amazon VPC in the following weeks.
+- Possess a secure, well-protected AWS account ready for advanced labs.
+- Clearly understand the differences between cloud service models and AWS's global network infrastructure.
+- Grasped the mindset of cost optimization right from the initial steps in the Cloud.
+- Clearly defined personal development directions and core goals throughout the internship.
 
 ---
+
+### Self-evaluation:
+
+- Adapted very well to the professional internship environment.
+- Completed 100% of the targets and tasks set for the first week.
+- Self-learning and AWS Documentations searching skills improved significantly. Ready to dive deeper into services next week.

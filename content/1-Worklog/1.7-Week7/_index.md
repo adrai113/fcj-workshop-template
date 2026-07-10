@@ -6,49 +6,35 @@ chapter: false
 pre: " <b> 1.7. </b> "
 ---
 
-### Week 7 Objectives:
+### Objectives of Week 7:
 
-- Continue developing the team project.
-- Complete the assigned features according to the project plan.
-- Update the workshop documentation and project progress report.
-- Attend the First Cloud Journey meeting to gain more knowledge and practical experience.
+- Dedicate time to synthesize, review, and refine skills related to Module 04 – Storage Services.
+- Deep dive into performance analysis and practice Disaster Recovery techniques related to data.
 
 ---
 
-### Tasks Completed This Week:
+### Tasks Implemented in the Week:
 
-| Day | Task                                                                                                                                                                                                                                                                       | Start Date | Completion Date | Reference |
-| --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | --------- |
-| Mon | - Internship at the company <br> - Self-study and discuss the project with team members                                                                                                                                                                                    | 01/06/2026 | 01/06/2026      |           |
-| Tue | - Continue developing the team project <br> - Complete assigned features                                                                                                                                                                                                   | 02/06/2026 | 02/06/2026      |           |
-| Wed | - Test and fix issues <br> - Update the source code and synchronize progress with the team                                                                                                                                                                                 | 03/06/2026 | 03/06/2026      |           |
-| Fri | - Update the workshop documentation <br> - Review project progress and prepare the weekly report                                                                                                                                                                           | 05/06/2026 | 05/06/2026      |           |
-| Sat | - Attend the First Cloud Journey meeting <br> - Learn about Docker <br> - Learn about AWS WAF combined with Machine Learning for cyber attack detection <br> - Learn about Godot Engine <br> - Listen to a career-sharing session from IT Helpdesk to System Administrator | 06/06/2026 | 06/06/2026      |           |
-
----
-
-### Results Achieved:
-
-- Attended the internship at the company, spent time on self-study, and discussed the project progress with team members.
-
-- Continued developing the team project and completed the assigned features.
-
-- Updated the workshop documentation and summarized the project progress.
-
-- Attended the First Cloud Journey meeting and learned about:
-  - Docker and its use in application deployment.
-  - AWS WAF combined with Machine Learning for cyber attack detection.
-  - Godot Engine.
-  - A career journey from IT Helpdesk to System Administrator.
+- **Review & Practice Consolidation:** 
+  - Repeated configuring S3 Buckets, Static Websites, and Amazon CloudFront with stricter requirements: used OAC (Origin Access Control) to force users to access only via CDN, blocking direct S3 links.
+- **Disaster Recovery (DR) Strategies:** 
+  - Practiced configuring S3 Cross-Region Replication (CRR) to automatically sync files across Regions for disaster resilience.
+- **Monitoring & Management:** 
+  - Practiced setting Storage Quotas. 
+  - Learned to use S3 Storage Lens to analyze data usage trends and storage costs across the Organization. 
+  - Managed and handled duplicate files (Data Deduplication) on FSx systems.
+- **Material Synthesis:** Built a comprehensive comparison cheat-sheet between EBS, EFS, S3, and Glacier as preparation material for the system architecture and security module next week.
 
 ---
 
-### Self-Evaluation:
+### Achievements:
 
-- Successfully completed the planned tasks for the week.
-
-- Gained additional knowledge about emerging technologies and industry experiences shared during the meeting.
-
-- Continued improving the project and prepared for the upcoming testing phase.
+- Grasped the "Design for Failure" mindset in the Cloud, ensuring data survival even if a Data Center fails thanks to CRR and automated Backups.
+- Enhanced storage data security proficiency with OAC and CloudFront.
 
 ---
+
+### Self-evaluation:
+
+- Combining CloudFront OAC and S3 was complex regarding authorization but successfully executed.
+- Feeling highly confident in Storage and Networking, excellently completing the first half of the internship.

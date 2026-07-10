@@ -8,44 +8,36 @@ pre: " <b> 1.12. </b> "
 
 ### Mục tiêu tuần 12:
 
-- Hoàn thiện báo cáo thực tập và tài liệu workshop.
-- Hoàn thiện Template báo cáo của chương trình First Cloud Journey (FCAJ).
-- Tổng hợp kết quả thực hiện project và hoàn tất các hồ sơ kết thúc chương trình thực tập.
+- Hoàn thiện 100% chức năng phần mềm, tối ưu hóa hệ thống tổng thể trên AWS.
+- Tích hợp trơn tru các dịch vụ AI (GenAI, LLM).
+- Soạn thảo tài liệu nghiệm thu kỹ thuật, báo cáo và chuẩn bị slide thuyết trình tổng kết thực tập.
 
 ---
 
-### Các công việc cần triển khai trong tuần này:
+### Các công việc đã triển khai trong tuần:
 
-| Thứ | Công việc                                                                                                  | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | ---------------------------------------------------------------------------------------------------------- | ------------ | --------------- | -------------- |
-| 2   | - Hoàn thiện báo cáo thực tập <br> - Tổng hợp kết quả thực hiện project                                    | 06/07/2026   | 06/07/2026      |                |
-| 3   | - Hoàn thiện tài liệu workshop <br> - Rà soát nội dung và hình ảnh minh họa                                | 07/07/2026   | 07/07/2026      |                |
-| 4   | - Hoàn thiện Template báo cáo First Cloud Journey (FCAJ) <br> - Kiểm tra và cập nhật nội dung theo yêu cầu | 08/07/2026   | 08/07/2026      |                |
-| 5   | - Rà soát báo cáo, tài liệu workshop và hồ sơ thực tập <br> - Chỉnh sửa các nội dung còn thiếu             | 09/07/2026   | 09/07/2026      |                |
-| 6   | - Hoàn thiện và nộp báo cáo thực tập <br> - Hoàn tất các hồ sơ kết thúc chương trình thực tập              | 10/07/2026   | 10/07/2026      |                |
+- **Tích hợp AI & Tính năng nâng cao:** 
+  - Tích hợp hoàn chỉnh các API AI từ bên thứ ba (LiteLLM, YOLOv8 để xử lý ảnh, Google Gemini API, Groq API) với Backend của hệ thống.
+  - Hoàn thiện module lưu trữ dữ liệu người dùng trên MongoDB Atlas (Cloud Database).
+- **Giám sát & Tối ưu (Observability):** 
+  - Cấu hình hoàn thiện Amazon CloudWatch để gom Logs tập trung từ các ECS Container.
+  - Thiết lập Dashboard theo dõi Metrics (CPU, Memory của Fargate) và tạo CloudWatch Alarms để cảnh báo nếu hệ thống quá tải.
+- **Kiểm thử End-to-End:** Thực hiện các kịch bản kiểm thử toàn diện từ giao diện Frontend qua CDN, gọi về Backend qua ALB, xử lý logic AI và ghi nhận xuống Database. Tối ưu hóa hiệu suất tải trang và fix triệt để các bugs UI/UX.
+- **Chuẩn bị nghiệm thu (Defense Prep):** 
+  - Rà soát hệ thống bảo mật, xóa bỏ các cổng truy cập dư thừa.
+  - Đóng gói toàn bộ tài liệu kỹ thuật, cập nhật bản vẽ kiến trúc (Architecture Diagram) lần cuối cùng.
+  - Soạn thảo file báo cáo thực tập (Word/PDF) và slide trình bày cho buổi nghiệm thu.
 
 ---
 
-### Kết quả đạt được tuần 12:
+### Kết quả đạt được:
 
-- Hoàn thiện báo cáo thực tập và tổng hợp đầy đủ kết quả thực hiện trong suốt quá trình tham gia chương trình.
-
-- Hoàn thiện tài liệu workshop và cập nhật nội dung theo đúng yêu cầu.
-
-- Hoàn thiện Template báo cáo của chương trình First Cloud Journey (FCAJ).
-
-- Hoàn tất các hồ sơ kết thúc chương trình thực tập và chuẩn bị đầy đủ tài liệu để nộp.
+- Đồ án nhóm vận hành mượt mà, ổn định trên hạ tầng Cloud thực tế với kiến trúc tối ưu và khả năng chịu tải ấn tượng. Việc tích hợp AI chạy trơn tru, mang lại giá trị thực tiễn.
+- Bộ hồ sơ tài liệu, báo cáo được thiết kế chuyên nghiệp, đầy đủ và sẵn sàng để bảo vệ trước hội đồng giám khảo/cán bộ hướng dẫn.
 
 ---
 
 ### Tự đánh giá:
 
-- Hoàn thành các công việc theo kế hoạch của chương trình thực tập.
-
-- Hoàn thành tổng hợp báo cáo, tài liệu workshop theo đúng yêu cầu.
-
-- Tích lũy thêm kinh nghiệm về quy trình triển khai, tài liệu hóa và báo cáo một dự án trên nền tảng AWS.
-
-- Kết thúc chương trình thực tập với sản phẩm, tài liệu và kiến thức đã tích lũy trong quá trình tham gia.
-
----
+- Đã đi đến chặng cuối cùng của kỳ thực tập, hoàn thành xuất sắc toàn bộ khối lượng công việc, lý thuyết và thực hành cực kỳ đồ sộ.
+- Đã trang bị được bộ kỹ năng vô giá về AWS Cloud, DevOps, và cách ứng dụng AI trong môi trường doanh nghiệp. Tự tin bước vào con đường sự nghiệp phía trước.

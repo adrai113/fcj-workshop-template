@@ -8,42 +8,32 @@ pre: " <b> 1.8. </b> "
 
 ### Mục tiêu tuần 8:
 
-- Hoàn thiện các chức năng còn lại của project nhóm.
-- Tối ưu trải nghiệm sử dụng hệ thống.
-- Hoàn thiện kiến trúc triển khai và tài liệu workshop.
-- Cập nhật báo cáo tiến độ dự án.
+- Khởi động Module 05 – Security & Identity Management.
+- Chuyển đổi tư duy sang hướng bảo mật đám mây (Cloud Security), thấu hiểu mô hình trách nhiệm chung và các biện pháp bảo vệ hệ thống cấp doanh nghiệp.
 
 ---
 
-### Các công việc cần triển khai trong tuần này:
+### Các công việc đã triển khai trong tuần:
 
-| Thứ | Công việc                                                                    | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | ---------------------------------------------------------------------------- | ------------ | --------------- | -------------- |
-| 2   | - Hoàn thiện các chức năng còn lại của project nhóm                          | 08/06/2026   | 08/06/2026      |                |
-| 3   | - Kiểm tra, sửa lỗi và tối ưu trải nghiệm sử dụng hệ thống                   | 09/06/2026   | 09/06/2026      |                |
-| 4   | - Hoàn thiện kiến trúc triển khai <br> - Cập nhật sơ đồ hệ thống             | 10/06/2026   | 10/06/2026      |                |
-| 5   | - Hoàn thiện tài liệu workshop <br> - Bổ sung hình ảnh và nội dung hướng dẫn | 11/06/2026   | 11/06/2026      |                |
-| 6   | - Tổng hợp tiến độ dự án <br> - Hoàn thiện báo cáo tuần                      | 12/06/2026   | 12/06/2026      |                |
+- **Khung bảo mật AWS:** Nghiên cứu kỹ lưỡng mô hình Shared Responsibility Model (Trách nhiệm của AWS vs Trách nhiệm của Khách hàng).
+- **Quản trị định danh quy mô lớn:** Khám phá dịch vụ AWS Organizations để quản lý đa tài khoản (Multi-Account), sử dụng SCP (Service Control Policies) để cấm các tài khoản con sử dụng dịch vụ không mong muốn. Tìm hiểu AWS IAM Identity Center (SSO) để đăng nhập tập trung.
+- **Mã hóa dữ liệu (KMS):** 
+  - Nghiên cứu cơ chế mã hóa đối xứng và bất đối xứng trên AWS KMS.
+  - Thực hành mã hóa dữ liệu trên EBS Volume và mã hóa Object trong S3 (SSE-KMS, SSE-S3).
+- **Tuân thủ & Đánh giá bảo mật:** Cấu hình AWS Security Hub và AWS Config để tự động dò quét và chấm điểm bảo mật tài khoản dựa trên tiêu chuẩn CIS (Center for Internet Security).
+- **Giám sát hoạt động API:** Thiết lập AWS CloudTrail để ghi lại mọi hành động thay đổi tài nguyên trong tài khoản. Kết hợp Amazon Athena để truy vấn log CloudTrail bằng lệnh SQL (VD: Tìm xem ai đã xóa một máy chủ EC2).
 
 ---
 
-### Kết quả đạt được tuần 8:
+### Kết quả đạt được:
 
-- Hoàn thiện các chức năng còn lại của project nhóm.
-
-- Kiểm tra, sửa lỗi và tối ưu trải nghiệm sử dụng hệ thống.
-
-- Hoàn thiện kiến trúc triển khai và cập nhật tài liệu workshop.
-
-- Tổng hợp tiến độ và chuẩn bị các nội dung cho giai đoạn kiểm thử.
+- Nhận thức rõ ràng tầm quan trọng của mã hóa dữ liệu tại chỗ (Data at rest) và mã hóa đường truyền (Data in transit).
+- Biết cách sử dụng CloudTrail và Athena để điều tra và truy vết (Forensic) khi có sự cố an ninh xảy ra trong hệ thống AWS.
+- Quản lý tập trung được tài nguyên qua AWS Organizations một cách bài bản.
 
 ---
 
 ### Tự đánh giá:
 
-- Hoàn thành các công việc theo kế hoạch.
-- Biết thêm quy trình hoàn thiện tài liệu và kiến trúc triển khai.
-- Cải thiện kỹ năng kiểm thử và xử lý lỗi trong quá trình phát triển project.
-- Sẵn sàng cho giai đoạn kiểm thử và hoàn thiện sản phẩm.
-
----
+- Security là một chủ đề phức tạp và khô khan, nhưng các bài thực hành trực quan với Athena và KMS giúp tôi hiểu bản chất dễ dàng hơn.
+- Tuần 8 đã trang bị cho tôi những nguyên tắc thiết kế bảo mật tối thượng để áp dụng vào đồ án nhóm sắp tới.

@@ -8,42 +8,33 @@ pre: " <b> 1.9. </b> "
 
 ### Mục tiêu tuần 9:
 
-- Kiểm thử toàn bộ hệ thống.
-- Xử lý lỗi và tối ưu hiệu năng.
-- Hoàn thiện kiến trúc triển khai trên AWS.
-- Cập nhật tài liệu kỹ thuật và workshop.
+- Nghiên cứu Module 06 – Database Services trên AWS, nắm vững các giải pháp cơ sở dữ liệu được quản lý toàn diện (Managed DB).
+- Bắt đầu thiết kế kiến trúc hệ thống và lên phương án triển khai cho đồ án tốt nghiệp/dự án nhóm.
 
 ---
 
-### Các công việc cần triển khai trong tuần này:
+### Các công việc đã triển khai trong tuần:
 
-| Thứ | Công việc                                                                      | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | ------------------------------------------------------------------------------ | ------------ | --------------- | -------------- |
-| 2   | - Kiểm thử luồng hoạt động end-to-end <br> - Ghi nhận các lỗi phát sinh        | 15/06/2026   | 15/06/2026      |                |
-| 3   | - Xử lý lỗi và tối ưu hiệu năng hệ thống                                       | 16/06/2026   | 16/06/2026      |                |
-| 4   | - Hoàn thiện kiến trúc triển khai trên AWS <br> - Rà soát cấu hình các dịch vụ | 17/06/2026   | 17/06/2026      |                |
-| 5   | - Cập nhật tài liệu kỹ thuật <br> - Hoàn thiện tài liệu workshop               | 18/06/2026   | 18/06/2026      |                |
-| 6   | - Tổng hợp tiến độ <br> - Chuẩn bị nội dung báo cáo                            | 19/06/2026   | 19/06/2026      |                |
+- **Cơ sở dữ liệu quan hệ (SQL):** 
+  - Ôn tập kiến thức Database. Nghiên cứu sâu về Amazon RDS (Relational Database Service) và Amazon Aurora (DB hiệu năng cao của AWS).
+  - Triển khai thành công Amazon RDS MySQL trong Private Subnet (chỉ cho phép EC2 Backend ở Public truy cập vào thông qua SG).
+  - Khám phá tính năng Multi-AZ Deployment để tự động chuyển đổi dự phòng (Failover) khi Data Center chính gặp sự cố. Tạo Read Replica để giảm tải truy vấn đọc.
+- **Di chuyển & Chuyển đổi dữ liệu:** Tìm hiểu lý thuyết về công cụ AWS DMS (Database Migration Service) và SCT (Schema Conversion Tool) dùng để chuyển dữ liệu từ On-premise lên Cloud.
+- **Giám sát Database:** Sử dụng RDS Performance Insights và CloudWatch để theo dõi tài nguyên CPU, Disk I/O và các truy vấn tốn thời gian.
+- **Thiết kế Đồ án Nhóm:**
+  - Họp nhóm, thảo luận và phác thảo sơ đồ kiến trúc tổng thể (Architecture Diagram).
+  - Quyết định công nghệ sẽ sử dụng: Kết hợp Container, Database và các API AI trên AWS.
 
 ---
 
-### Kết quả đạt được tuần 9:
+### Kết quả đạt được:
 
-- Kiểm thử luồng hoạt động end-to-end và xử lý các lỗi phát sinh.
-
-- Tối ưu hiệu năng hệ thống và rà soát cấu hình các dịch vụ trên AWS.
-
-- Hoàn thiện kiến trúc triển khai của project.
-
-- Cập nhật tài liệu kỹ thuật, tài liệu workshop và chuẩn bị nội dung báo cáo.
+- Nắm được cách vận hành Database trên môi trường Production đảm bảo High Availability (Tính sẵn sàng cao) thông qua Multi-AZ.
+- Sơ đồ kiến trúc của nhóm đã được chốt và phân chia công việc rõ ràng, chuẩn bị cho giai đoạn xây dựng (Build).
 
 ---
 
 ### Tự đánh giá:
 
-- Hoàn thành các công việc theo kế hoạch.
-- Biết thêm quy trình kiểm thử và tối ưu hệ thống.
-- Cải thiện kỹ năng xử lý lỗi và cấu hình dịch vụ AWS.
-- Tiếp tục hoàn thiện project và chuẩn bị cho giai đoạn báo cáo.
-
----
+- Việc ẩn Database vào Private Subnet và kiểm soát hoàn toàn truy cập bằng Security Group đã thể hiện việc áp dụng xuất sắc kiến thức từ Module Networking và Security vào thực tế.
+- Các bài lab được thực hiện cẩn thận, kiến trúc đồ án hợp lý và tối ưu.
