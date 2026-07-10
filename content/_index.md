@@ -8,17 +8,17 @@ chapter: false
 # Internship Report
 
 ### Student Information:
-| &emsp; **Full Name:** Đậu Đại Tài
+&emsp; **Full Name:** Dau Dai Tai
 
-| &emsp; **Phone Number:** 0387472950
+&emsp; **Phone Number:** 0387472950
 
-| &emsp; **Email:** toilatai2004@gmail.com
+&emsp; **Email:** toilatai2004@gmail.com
 
 &emsp; **University:** HCMC University of Technology - HUTECH
 
 &emsp; **Major:** Information Technology
 
-| &emsp; **Class:** 22DTHD1
+&emsp; **Class:** 22DTHD1
 
 &emsp; **Internship Company:** Amazon Web Services Vietnam Co., Ltd.
 
@@ -34,6 +34,7 @@ chapter: false
 2.  [Proposal](2-Proposal/)
 3.  [Translated Blogs](3-BlogsTranslated/)
 4.  [Events Participated](4-EventParticipated/)
-5.  [Workshop](5-Workshop/)
-6.  [Self-evaluation](6-Self-evaluation/)
-7.  [Sharing and Feedback](7-Feedback/)
+5.  [Project](5-Project/)
+6.  [Workshop](6-Workshop/)
+7.  [Self-evaluation](7-Self-evaluation/)
+8.  [Sharing and Feedback](8-Feedback/)

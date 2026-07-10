@@ -1,4 +1,4 @@
-baseURL = "https://workshop-sample.fcjuni.com/"
+baseURL = "https://adrai113.github.io/fcj-workshop-template/"
 relativeURLs = false
 canonifyURLs = false
 defaultContentLanguage = "en"
@@ -36,7 +36,7 @@ weight = 20
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-github'></i> Github"
 identifier = "Github"
-url = "https://github.com/imyuh1209/fcj-workshop-template"
+url = "https://github.com/adrai113/fcj-workshop-template"
 weight = 30
 
 [Languages.vi]
@@ -53,7 +53,7 @@ weight = 20
 [[Languages.vi.menu.shortcuts]]
 name = "<i class='fab fa-github'></i> Github"
 identifier = "Github"
-url = "https://github.com/imyuh1209/fcj-workshop-template"
+url = "https://github.com/adrai113/fcj-workshop-template"
 weight = 30
 
 [markup]
