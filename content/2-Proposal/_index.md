@@ -78,18 +78,16 @@ The project is designed to be completed within a 3-month development cycle, appl
 
 ### 6. Budget Estimation
 
-The budget is calculated for a small/pilot environment (~100 concurrent connections), closely following the Standard Enterprise Architecture which includes Private Subnets and a NAT Gateway:
+Using the AWS cost model with Spot Instance and Serverless strategies for a real-world environment (~100 concurrent students):
 
-| Infrastructure Category | AWS Service              | Estimated Cost (Monthly) | Notes                               |
-| :---------------------- | :----------------------- | :----------------------- | :---------------------------------- |
-| **Frontend Hosting**    | S3 + CloudFront          | ~$0.00                   | Using Free Tier                     |
-| **Core API Compute**    | ECS Fargate (Spot)       | ~$4.00 - $6.00           | 70% optimized over On-demand price  |
-| **AI Processing**       | EC2 CPU (t3.medium Spot) | ~$4.00 - $8.00           | Running YOLOv8 Nano (CPU)           |
-| **Load Balancing**      | ALB                      | ~$16.00                  | Routing HTTP/WebSockets             |
-| **Networking**          | NAT Gateway & Elastic IP | ~$32.50                  | Private -> Internet transit station |
-| **Database**            | MongoDB Atlas (M0)       | ~$0.00                   | Free Tier                           |
-| **Other**               | Amazon CloudWatch        | ~$2.00                   | System logging & monitoring         |
-| **Total**               |                          | **~$58.50 - $64.50**     |                                     |
+- **Frontend (S3 + CloudFront):** ~$1.00 USD/month (Free Tier / very low data transfer cost).
+- **ECS Fargate Spot (Backend):** ~$3.00 - 5.00 USD/month.
+- **EC2 GPU Spot (AI Engine - g4dn.xlarge):** ~$0.15 - 0.20 USD/hour (only active during exam schedules, estimated ~$8.00 - 12.00 USD/month).
+- **NAT Gateway (Optional / or VPC Endpoints):** ~$10.00 - 15.00 USD/month.
+- **Application Load Balancer (ALB):** ~$16.00 USD/month.
+- **MongoDB Atlas:** ~$0.00 USD/month (Free Tier M0 plan).
+- **SES & WAF:** ~$2.00 USD/month.
+- 👉 **Total Estimate:** Approximately **30 - 50 USD/month** (AWS Credits can be used to fully cover the costs).
 
 ### 7. Risk Assessment
 

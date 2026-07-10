@@ -1,5 +1,0 @@
-{{ $url := .Destination }}
-{{ if strings.HasPrefix $url "/" }}
-  {{ $url = $url | relURL }}
-{{ end }}
-<img src="{{ $url | safeURL }}" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}"{{ end }} />

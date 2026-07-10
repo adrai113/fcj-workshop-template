@@ -76,20 +76,18 @@ Dự án được thiết kế để hoàn thiện trong một chu kỳ phát tr
 - **Tuần 6-9 (AI Proctoring):** Phát triển module AI, nhận và phân tích luồng WebSockets camera từ nhiều client đồng thời, tối ưu FPS.
 - **Tuần 10-12 (Deployment & Validation):** Triển khai toàn hệ thống lên AWS. Xây dựng kịch bản kiểm thử giả lập mất Spot Instances. Đóng gói tài liệu báo cáo nghiệm thu.
 
-### 6. Ước tính Ngân sách
+### 6. Ước tính ngân sách
 
-Ngân sách được tính toán cho một môi trường quy mô nhỏ/thử nghiệm (~100 kết nối đồng thời), bám sát theo Sơ đồ Kiến trúc Chuẩn (Enterprise Architecture) bao gồm hệ thống Private Subnets và NAT Gateway:
+Sử dụng mô hình chi phí của AWS với chiến lược Spot Instance và Serverless cho môi trường thực tế (~100 sinh viên đồng thời):
 
-| Hạng mục Hạ tầng     | Dịch vụ AWS              | Chi phí ước tính (Tháng) | Ghi chú                               |
-| :------------------- | :----------------------- | :----------------------- | :------------------------------------ |
-| **Frontend Hosting** | S3 + CloudFront          | ~$0.00                   | Sử dụng Free Tier                     |
-| **Core API Compute** | ECS Fargate (Spot)       | ~$4.00 - $6.00           | Tối ưu 70% giá On-demand              |
-| **AI Processing**    | EC2 CPU (t3.medium Spot) | ~$4.00 - $8.00           | Chạy YOLOv8 Nano (CPU)                |
-| **Load Balancing**   | ALB                      | ~$16.00                  | Định tuyến HTTP/WebSockets            |
-| **Networking**       | NAT Gateway & Elastic IP | ~$32.50                  | Trạm trung chuyển Private -> Internet |
-| **Database**         | MongoDB Atlas (M0)       | ~$0.00                   | Free Tier                             |
-| **Khác**             | Amazon CloudWatch        | ~$2.00                   | Ghi log & giám sát hệ thống           |
-| **Tổng cộng**        |                          | **~$58.50 - $64.50**     |                                       |
+- **Frontend (S3 + CloudFront):** ~$1.00 USD/tháng (Free Tier / chi phí truyền tải rất thấp).
+- **ECS Fargate Spot (Backend):** ~$3.00 - 5.00 USD/tháng.
+- **EC2 GPU Spot (AI Engine - g4dn.xlarge):** ~$0.15 - 0.20 USD/giờ (chỉ bật khi có lịch thi, ước tính ~$8.00 - 12.00 USD/tháng).
+- **NAT Gateway (Tùy chọn / hoặc VPC Endpoints):** ~$10.00 - 15.00 USD/tháng.
+- **Application Load Balancer (ALB):** ~$16.00 USD/tháng.
+- **MongoDB Atlas:** ~$0.00 USD/tháng (Gói Free Tier M0).
+- **SES & WAF:** ~$2.00 USD/tháng.
+- 👉 **Tổng ước tính:** Khoảng **30 - 50 USD/tháng** (Có thể sử dụng AWS Credits để bao phủ hoàn toàn chi phí thực hành).
 
 ### 7. Đánh giá Rủi ro
 
